@@ -1,0 +1,85 @@
+---- uartInit Matches (84 in 10 files) ----
+BlueTooth.c:static USART_InitAsync_TypeDef uartInit = USART_INITASYNC_DEFAULT;
+BlueTooth.c:  uartInit.enable       = usartDisable;   /* Don't enable UART upon intialization */
+BlueTooth.c:  uartInit.refFreq      = 0;              /* Provide information on reference frequency. When set to 0, the reference frequency is */
+BlueTooth.c:  uartInit.baudrate     = 115200;         /* Baud rate */
+BlueTooth.c:  uartInit.oversampling = usartOVS6;      /* Oversampling. Range is 4x, 6x, 8x or 16x */
+BlueTooth.c:  uartInit.databits     = usartDatabits8; /* Number of data bits. Range is 4 to 10 */
+BlueTooth.c:  uartInit.parity       = usartNoParity;  /* Parity mode */
+BlueTooth.c:  uartInit.stopbits     = usartStopbits1; /* Number of stop bits. Range is 0 to 2 */
+BlueTooth.c:  //uartInit.mvdis        = false;          /* Disable majority voting */
+BlueTooth.c:  //uartInit.prsRxEnable  = false;          /* Enable USART Rx via Peripheral Reflex System */
+BlueTooth.c:  //uartInit.prsRxCh      = usartPrsRxCh0;  /* Select PRS channel if enabled */
+BlueTooth.c:  /* Initialize USART with uartInit struct */
+BlueTooth.c:  USART_InitAsync(uart, &uartInit);
+Bluetooth.c (bl):  BL_UartInit(); 
+BL_UART.c (bl):// BL_UartInit
+BL_UART.c (bl):#define FUNC_NAME "BL_UartInit"
+BL_UART.c (bl):void BL_UartInit(void)
+BL_UART.c (bl):    USART_InitAsync_TypeDef uartInit = USART_INITASYNC_DEFAULT;
+BL_UART.c (bl):    uartInit.enable       = usartDisable;   /* Don't enable UART upon intialization */
+BL_UART.c (bl):    uartInit.refFreq      = 0;              /* Provide information on reference frequency. When set to 0, the reference frequency is */
+BL_UART.c (bl):    uartInit.baudrate     = 115200;         /* Baud rate */
+BL_UART.c (bl):    uartInit.oversampling = usartOVS16;     /* Oversampling. Range is 4x, 6x, 8x or 16x */
+BL_UART.c (bl):    uartInit.databits     = usartDatabits8; /* Number of data bits. Range is 4 to 10 */
+BL_UART.c (bl):    uartInit.parity       = usartNoParity;  /* Parity mode */
+BL_UART.c (bl):    uartInit.stopbits     = usartStopbits1; /* Number of stop bits. Range is 0 to 2 */
+BL_UART.c (bl):     uartInit.mvdis        = false;          /* Disable majority voting */
+BL_UART.c (bl):     uartInit.prsRxEnable  = false;          /* Enable USART Rx via Peripheral Reflex System */
+BL_UART.c (bl):     uartInit.prsRxCh      = usartPrsRxCh0;  /* Select PRS channel if enabled */
+BL_UART.c (bl):    USART_InitAsync(BL_UART, &uartInit);
+BL_UART.h (bl):void BL_UartInit(void);
+HandUart.c:static USART_InitAsync_TypeDef uartInit = USART_INITASYNC_DEFAULT;
+HandUart.c:  uartInit.enable       = usartDisable;   /* Don't enable UART upon intialization */
+HandUart.c:  uartInit.refFreq      = 0;              /* Provide information on reference frequency. When set to 0, the reference frequency is */
+HandUart.c:  uartInit.baudrate     = 9600;//115200;         /* Baud rate */
+HandUart.c:  uartInit.oversampling = usartOVS16;     /* Oversampling. Range is 4x, 6x, 8x or 16x */
+HandUart.c:  uartInit.databits     = usartDatabits8; /* Number of data bits. Range is 4 to 10 */
+HandUart.c:  uartInit.parity       = usartNoParity;  /* Parity mode */
+HandUart.c:  uartInit.stopbits     = usartStopbits1; /* Number of stop bits. Range is 0 to 2 */
+HandUart.c:  //uartInit.mvdis        = false;          /* Disable majority voting */
+HandUart.c:  //uartInit.prsRxEnable  = false;          /* Enable USART Rx via Peripheral Reflex System */
+HandUart.c:  //uartInit.prsRxCh      = usartPrsRxCh0;  /* Select PRS channel if enabled */
+HandUart.c:  /* Initialize USART with uartInit struct */
+HandUart.c:  USART_InitAsync(uart, &uartInit);
+HandUart_New.c:static USART_InitAsync_TypeDef uartInit = USART_INITASYNC_DEFAULT;
+Startup_usart0.c:    uartInit.enable       = usartDisable;   /* Don't enable UART upon intialization */
+Startup_usart0.c:    uartInit.refFreq      = 0;              /* Provide information on reference frequency. When set to 0, the reference frequency is */
+Startup_usart0.c:    uartInit.baudrate     = 9600;//115200;         /* Baud rate */
+Startup_usart0.c:    uartInit.oversampling = usartOVS16;     /* Oversampling. Range is 4x, 6x, 8x or 16x */
+Startup_usart0.c:    uartInit.databits     = usartDatabits8; /* Number of data bits. Range is 4 to 10 */
+Startup_usart0.c:    uartInit.parity       = usartNoParity;  /* Parity mode */
+Startup_usart0.c:    uartInit.stopbits     = usartStopbits1; /* Number of stop bits. Range is 0 to 2 */
+Startup_usart0.c:    //uartInit.mvdis        = false;          /* Disable majority voting */
+Startup_usart0.c:    //uartInit.prsRxEnable  = false;          /* Enable USART Rx via Peripheral Reflex System */
+Startup_usart0.c:    //uartInit.prsRxCh      = usartPrsRxCh0;  /* Select PRS channel if enabled */
+Startup_usart0.c:    /* Initialize USART with uartInit struct */
+Startup_usart0.c:    USART_InitAsync(uart, &uartInit);
+UartLeg.c:static USART_InitAsync_TypeDef uartInit = USART_INITASYNC_DEFAULT;
+UartLeg.c://static USART_InitAsync_TypeDef uartInit = USART_INITASYNC_DEFAULT;
+UartLeg.c:    uartInit.enable       = usartDisable;   /* Don't enable UART upon intialization */
+UartLeg.c:    uartInit.refFreq      = 0;              /* Provide information on reference frequency. When set to 0, the reference frequency is */
+UartLeg.c:    uartInit.baudrate     = 115200;//9600;//9600;//115200;         /* Baud rate */
+UartLeg.c:    uartInit.oversampling = usartOVS16;     /* Oversampling. Range is 4x, 6x, 8x or 16x */
+UartLeg.c:    uartInit.databits     = usartDatabits8; /* Number of data bits. Range is 4 to 10 */
+UartLeg.c:    uartInit.parity       = usartNoParity;  /* Parity mode */
+UartLeg.c:    uartInit.stopbits     = usartStopbits1; /* Number of stop bits. Range is 0 to 2 */
+UartLeg.c:    //uartInit.mvdis        = false;          /* Disable majority voting */
+UartLeg.c:    //uartInit.prsRxEnable  = false;          /* Enable USART Rx via Peripheral Reflex System */
+UartLeg.c:    //uartInit.prsRxCh      = usartPrsRxCh0;  /* Select PRS channel if enabled */
+UartLeg.c:    /* Initialize USART with uartInit struct */
+UartLeg.c:    USART_InitAsync(uart, &uartInit);
+UartMassagerSignal.c:static USART_InitAsync_TypeDef uartInit = USART_INITASYNC_DEFAULT;
+UartMassagerSignal.c:    uartInit.enable       = usartDisable;   /* Don't enable UART upon intialization */
+UartMassagerSignal.c:    uartInit.refFreq      = 0;              /* Provide information on reference frequency. When set to 0, the reference frequency is */
+UartMassagerSignal.c:    uartInit.baudrate     = 9600;//115200;         /* Baud rate */
+UartMassagerSignal.c:    uartInit.oversampling = usartOVS16;     /* Oversampling. Range is 4x, 6x, 8x or 16x */
+UartMassagerSignal.c:    uartInit.databits     = usartDatabits8; /* Number of data bits. Range is 4 to 10 */
+UartMassagerSignal.c:    uartInit.parity       = usartNoParity;  /* Parity mode */
+UartMassagerSignal.c:    uartInit.stopbits     = usartStopbits1; /* Number of stop bits. Range is 0 to 2 */
+UartMassagerSignal.c:    //uartInit.mvdis        = false;          /* Disable majority voting */
+UartMassagerSignal.c:    //uartInit.prsRxEnable  = false;          /* Enable USART Rx via Peripheral Reflex System */
+UartMassagerSignal.c:    //uartInit.prsRxCh      = usartPrsRxCh0;  /* Select PRS channel if enabled */
+UartMassagerSignal.c:    /* Initialize USART with uartInit struct */
+UartMassagerSignal.c:    USART_InitAsync(uart, &uartInit);
+VoiceUart.c:static USART_InitAsync_TypeDef uartInit = USART_INITASYNC_DEFAULT;

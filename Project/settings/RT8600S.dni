@@ -1,0 +1,186 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-1795167537
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2250000
+Prescaler=32
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[JLinkDriver]
+CStepIntDis=_ 0
+LeaveTargetRunning=_ 0
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+[CodeCoverage]
+Enabled=_ 0
+[struct_types]
+Fmt0=BITS-nByte	4	0
+Fmt1=WALK_KNEAD_KNOCK_MOTOR_STRUCT_AUTO-nSubFunction	3	0
+Fmt2=WALK_KNEAD_KNOCK_MOTOR_STRUCT_AUTO-nWalkMotorLocateMethod	3	0
+Fmt3=WALK_KNEAD_KNOCK_MOTOR_STRUCT_MANUAL-nSubFunction	4	0
+Fmt4=WALK_KNEAD_KNOCK_MOTOR_STRUCT_MANUAL-nWalkMotorLocateMethod	4	0
+Fmt5=WALK_KNEAD_KNOCK_MOTOR_STRUCT_MANUAL-nWalkMotorLocateParam	4	0
+Fmt6=st_AirBag-nCurAirBagStep	2	0
+[array_types]
+Fmt0=uint8_t[32]	4	0
+Fmt1=uint8_t[6]	1	0
+Fmt2=unsigned char[20]	4	0
+Fmt3=unsigned char[8]	4	0
+Fmt4=unsigned char[9]	4	0
+Fmt5=unsigned int[10]	4	0
+[watch_formats]
+Fmt0={W}0:key	4	0
+Fmt1={W}42:BackPulseCountHigh	3	0
+Fmt2={W}42:BackPulseStep	3	0
+Fmt3={W}42:HighTime_Init	3	0
+Fmt4={W}42:HighTime_Target	3	0
+Fmt5={W}42:Main_Mark	3	0
+Fmt6={W}42:bkneadTimeFlag	3	0
+Fmt7={W}42:chksum	4	0
+Fmt8={W}42:n3D_MotorControlPosition	4	0
+Fmt9={W}42:n3D_MotorControlSpeed	4	0
+Fmt10={W}42:n3D_MotorControlState	4	0
+Fmt11={W}42:nBackSubRunMode	4	0
+Fmt12={W}42:nChairRunState	4	0
+Fmt13={W}42:nKeyBackLocate	3	0
+Fmt14={W}42:nStartActionStep	4	0
+Fmt15={W}42:st_Stretch.active	4	0
+[Trace1]
+Enabled=0
+ShowSource=1
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerLog]
+Title_0=I0
+Symbol_0=0 4 0
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[EventLog]
+Title_0=Ch3
+Symbol_0=0 4 1
+Title_1=Ch2
+Symbol_1=0 4 1
+Title_2=Ch1
+Symbol_2=0 4 1
+Title_3=Ch0
+Symbol_3=0 4 1
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Aliases]
+A0=_ "C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.00_20180723\Include\core_cm3.h" ""
+A1=_ "D:\Program\RT8720\2D&3D\RT8720S_3D\黄勇合同评审单\RT8720S_DKH005_V1.08\Application\src\main.c" ""
+A2=_ "D:\Program\RT8720\2D&3D\RT8720S_3D\黄勇合同评审单\RT8720S_DKH005_V1.08\Include\core_cm3.h" ""
+A3=_ "D:\Program\RT8720\2D&3D\RT8720S_3D\黄勇合同评审单\RT8720S_DKH005_V1.14\Application\src\AxisMotor.c" ""
+A4=_ "D:\Program\RT8720\2D&3D\RT8720S_3D\黄勇合同评审单\RT8720S_DKH005_V1.14\Application\src\Valve.c" ""
+A5=_ "D:\Program\RT8720\2D&3D\RT8720S_3D\黄勇合同评审单\RT8720S_DKH005_V1.14\Application\src\main.c" ""
+A6=_ "D:\Program\RT8720\2D&3D\RT8720S_3D\黄勇合同评审单\RT8720S_DKH005_V1.14\Include\core_cm3.h" ""
+A7=_ "D:\Program\RT8720\2D&3D\RT8720S_3D\黄勇合同评审单\RT8720S_DKH005_V1.14\emlib\inc\em_gpio.h" ""
+A8=_ "D:\Program\RT8720\2D&3D\RT8720S_3D\黄勇合同评审单\RT8720S_DKH005_V1.14\emlib\inc\em_timer.h" ""
+A9=_ "D:\Program\RT8720\2D&3D\RT8720S_3D\黄勇合同评审单\RT8720S_DKH005_V1.15\Application\src\main.c" ""
+A10=_ "D:\Program\RT8720\2D&3D\RT8720S_3D\黄勇合同评审单\RT8720S_DKH005_V1.15\Include\core_cm3.h" ""
+A11=_ "D:\Program\RT8720\2D&3D\RT8720S_3D\黄勇合同评审单\RT8720S_DKH005_V1.17\Include\core_cm3.h" ""
+A12=_ "D:\Program\RT8720\2D&3D\RT8720S_3D\慕思版\RT8720S_DKH005_V1.16\Include\core_cm3.h" ""
+A13=_ "D:\Program\RT8720\2D&3D\RT8720S_3D\慕思版\RT8720S_DKH005_V1.17 - 2\Application\src\main.c" ""
+A14=_ "D:\Program\RT8720\2D&3D\RT8720S_3D\慕思版\RT8720S_DKH005_V1.17 - 2\Include\core_cm3.h" ""
+A15=_ "D:\Program\RT8720\3D\2D&3D\发行\新建文件夹\RT8720_V1.009\Application\src\main.c" ""
+A16=_ "D:\Program\RT8720\3D\2D&3D\发行\新建文件夹\RT8720_V1.009\Include\core_cm3.h" ""
+A17=_ "D:\Program\RT8720\3D\2D&3D\软件备份\RT8720_V1.006\Application\src\main.c" ""
+A18=_ "D:\Program\RT8720\3D\2D&3D\软件备份\RT8720_V1.006\Include\core_cm3.h" ""
+A19=_ "D:\按摩椅\6923\主板程序\RT6923_V1.01_20180205\Application\src\Valve.c" ""
+A20=_ "D:\按摩椅\6923\主板程序\RT6923_V1.01_20180205\Application\src\main.c" ""
+A21=_ "D:\按摩椅\6923\主板程序\RT6923_V1.01_20180205\Application\src\system.c" ""
+Count=22
+SuppressDialog=1

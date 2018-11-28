@@ -1,0 +1,1813 @@
+###############################################################################
+#
+# IAR ELF Linker V7.80.1.11864/W32 for ARM                18/Sep/2018  09:15:59
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Exe\RT8600_New.out.tmp
+#    Map file     =  
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\List\RT8600_New.map
+#    Command line =  
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\ADC_scan.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\ADC_Temperature.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\AxisMotor.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\BackPad.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\BlueTooth.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\Data_Cul.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\DMA_Ctrl.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_acmp.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_adc.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_aes.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_assert.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_burtc.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_cmu.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_dac.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_dbg.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_dma.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_ebi.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_emu.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_gpio.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_i2c.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_int.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_lcd.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_lesense.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_letimer.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_leuart.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_mpu.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_msc.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_opamp.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_pcnt.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_prs.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_rmu.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_rtc.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_system.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_timer.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_usart.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_vcmp.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\em_wdog.o
+#        "C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\Flex_Uart
+#        .o"
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\HandUart_New.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\IndicateLED.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\Input.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\KneadMotor.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\KnockMotor_8840.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\LED_RGB.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\LegKnead_Uart.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\LegMotor.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\main.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\MassageStatus.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\memory.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\Mp3Ctrl.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\NetCloud.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\Power.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\problem.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\Rock.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\Roller_Uart.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\signalUart_new.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\SingleLine.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\SlideMotor.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\startup_efm32lg.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\system.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\system_efm32lg.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\Timer.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\UartLeg.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\Valve.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\VoiceUart.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\WaistHot.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\WalkMotor.o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj\xmodem.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Exe\RT8600_New.out.tmp
+#        --map
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\List\RT8600_New.map
+#        --config
+#        C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\RT6923.icf
+#        --semihosting --entry __iar_program_start --place_holder
+#        __checksum,4,.checksum,1 --define_symbol __checksum_begin=0x2000
+#        --define_symbol __checksum_end=0x1dfff --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x00002000 { ro section .intvec };
+"P1":  place in [from 0x00002000 to 0x0001dfff] { ro };
+"P2":  place in [from 0x20001000 to 0x20007fff] { rw, block CSTACK, block HEAP };
+"A1":  place at 0x0001dffc { ro section .checksum };
+initialize by copy { rw };
+ { section .intvec };
+
+  Section            Kind        Address     Size  Object
+  -------            ----        -------     ----  ------
+"A0":                                        0xdc
+  .intvec            ro code  0x00002000     0xdc  startup_efm32lg.o [1]
+                            - 0x000020dc     0xdc
+
+"P1":                                     0x1b2c0
+  .text              ro code  0x000020dc   0xd724  main.o [1]
+  .text              ro code  0x0000f800    0x4f4  system.o [1]
+  .text              ro code  0x0000fcf4     0xa0  Power.o [1]
+  .text              ro code  0x0000fd94     0x5e  IndicateLED.o [1]
+  .text              ro code  0x0000fdf4    0x2a4  KneadMotor.o [1]
+  .text              ro code  0x00010098    0x1f0  HandUart_New.o [1]
+  .text              ro code  0x00010288    0xcf0  Valve.o [1]
+  .text              ro code  0x00010f78    0x934  AxisMotor.o [1]
+  .text              ro code  0x000118ac    0x2b4  SlideMotor.o [1]
+  .text              ro code  0x00011b60    0x394  LegMotor.o [1]
+  .text              ro code  0x00011ef4    0x4c0  BackPad.o [1]
+  .text              ro code  0x000123b4    0x8b4  WalkMotor.o [1]
+  .text              ro code  0x00012c68    0x780  Input.o [1]
+  .text              ro code  0x000133e8    0x184  KnockMotor_8840.o [1]
+  .text              ro code  0x0001356c      0x2  Mp3Ctrl.o [1]
+  .text              ro code  0x00013570     0x7c  WaistHot.o [1]
+  .text              ro code  0x000135ec    0x3a8  LED_RGB.o [1]
+  .text              ro code  0x00013994    0x364  UartLeg.o [1]
+  .text              ro code  0x00013cf8    0x2a4  BlueTooth.o [1]
+  .text              ro code  0x00013f9c     0x28  DMA_Ctrl.o [1]
+  .text              ro code  0x00013fc4    0x1bc  ADC_scan.o [1]
+  .text              ro code  0x00014180    0x2a0  Roller_Uart.o [1]
+  .text              ro code  0x00014420    0x784  Flex_Uart .o [1]
+  .text              ro code  0x00014ba4    0x178  signalUart_new.o [1]
+  .text              ro code  0x00014d1c     0x60  VoiceUart.o [1]
+  Veneer             ro code  0x00014d7c      0x8  - Linker created -
+  Veneer             ro code  0x00014d84      0x8  - Linker created -
+  .text              ro code  0x00014d8c     0x62  memory.o [1]
+  .text              ro code  0x00014df0     0x3a  ABImemset48.o [5]
+  .text              ro code  0x00014e2c     0xcc  Data_Cul.o [1]
+  .text              ro code  0x00014ef8    0x340  Rock.o [1]
+  .text              ro code  0x00015238     0xc4  problem.o [1]
+  .text              ro code  0x000152fc     0x8c  Timer.o [1]
+  .text              ro code  0x00015388     0x66  ABImemset.o [5]
+  .text              ro code  0x000153f0    0x4d0  SingleLine.o [1]
+  .text              ro code  0x000158c0    0x100  system_efm32lg.o [1]
+  .text              ro code  0x000159c0     0x20  em_system.o [1]
+  .text              ro code  0x000159e0     0x84  FltAdd.o [4]
+  .text              ro code  0x00015a64     0xfc  FltDiv.o [4]
+  .text              ro code  0x00015b60     0x24  FltToU32.o [4]
+  .text              ro code  0x00015b84    0x904  em_cmu.o [1]
+  .text              ro code  0x00016488     0x76  ABImemcpy_unaligned.o [5]
+  .text              ro code  0x00016500    0x11c  em_vcmp.o [1]
+  .text              ro code  0x0001661c     0x14  em_wdog.o [1]
+  .text              ro code  0x00016630     0xe0  em_gpio.o [1]
+  .text              ro code  0x00016710    0x136  em_timer.o [1]
+  .text              ro code  0x00016848     0xf8  em_leuart.o [1]
+  .text              ro code  0x00016940    0x1be  em_usart.o [1]
+  .text              ro code  0x00016afe      0xc  memcpy.o [3]
+  .text              ro code  0x00016b0c      0xe  xmodem.o [1]
+  .text              ro code  0x00016b1c    0x2ac  em_dma.o [1]
+  .text              ro code  0x00016dc8    0x1b4  em_adc.o [1]
+  .text              ro code  0x00016f7c     0x7c  em_msc.o [1]
+  .text              ro code  0x00016ff8     0xb4  em_letimer.o [1]
+  .text              ro code  0x000170ac     0xd6  FltSub.o [4]
+  .text              ro code  0x00017184     0x14  em_emu.o [1]
+  .rodata            const    0x00017198   0x5de0  main.o [1]
+  .text              ro code  0x0001cf78     0x78  lz77_init_single.o [5]
+  .text              ro code  0x0001cff0     0x40  zero_init3.o [5]
+  .text              ro code  0x0001d030     0x30  iarttio.o [6]
+  .text              ro code  0x0001d060      0x8  XShttio.o [3]
+  .text              ro code  0x0001d068     0x28  data_init.o [5]
+  .iar.init_table    const    0x0001d090     0x20  - Linker created -
+  .text              ro code  0x0001d0b0     0x1a  cmain.o [5]
+  .text              ro code  0x0001d0ca      0x4  low_level_init.o [3]
+  .text              ro code  0x0001d0ce      0x4  exit.o [3]
+  .text              ro code  0x0001d0d4      0xa  cexit.o [5]
+  .text              ro code  0x0001d0e0     0x14  exit.o [6]
+  .rodata            const    0x0001d0f4     0x10  Flex_Uart .o [1]
+  .text              ro code  0x0001d104     0x10  startup_efm32lg.o [1]
+  .rodata            const    0x0001d114      0xc  Flex_Uart .o [1]
+  .text              ro code  0x0001d120      0xc  cstartup_M.o [5]
+  .text              ro code  0x0001d12c      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d130      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d134      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d138      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d13c      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d140      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d144      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d148      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d14c      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d150      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d154      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d158      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d15c      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d160      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d164      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d168      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d16c      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d170      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d174      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d178      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d17c      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d180      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d184      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d188      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d18c      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d190      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d194      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d198      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d19c      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d1a0      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d1a4      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d1a8      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d1ac      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d1b0      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d1b4      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d1b8      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d1bc      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d1c0      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d1c4      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d1c8      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d1cc      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d1d0      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d1d4      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d1d8      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d1dc      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d1e0      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d1e4      0x4  startup_efm32lg.o [1]
+  .text              ro code  0x0001d1e8      0x4  startup_efm32lg.o [1]
+  .rodata            const    0x0001d1ec      0x0  zero_init3.o [5]
+  .rodata            const    0x0001d1ec      0x0  lz77_init_single.o [5]
+  Initializer bytes  const    0x0001d1ec    0x1b0  <for P2-1>
+                            - 0x0001d39c  0x1b2c0
+
+"A1":                                         0x4
+  .checksum          const    0x0001dffc      0x4  Place holder __checksum
+                            - 0x0001e000      0x4
+
+"P2", part 1 of 3:                          0x345
+  P2-1                        0x20001000    0x345  <Init block>
+    .data            inited   0x20001000      0x4  ADC_scan.o [1]
+    .data            inited   0x20001004     0x18  BackPad.o [1]
+    .data            inited   0x2000101c     0x48  BlueTooth.o [1]
+    .data            inited   0x20001064     0x18  BlueTooth.o [1]
+    .data            inited   0x2000107c      0x4  Flex_Uart .o [1]
+    .data            inited   0x20001080      0x8  HandUart_New.o [1]
+    .data            inited   0x20001088     0x80  main.o [1]
+    .data            inited   0x20001108     0x1c  signalUart_new.o [1]
+    .data            inited   0x20001124     0x18  signalUart_new.o [1]
+    .data            inited   0x2000113c     0x2a  SingleLine.o [1]
+    .data            inited   0x20001168      0x8  system_efm32lg.o [1]
+    .data            inited   0x20001170     0x5c  UartLeg.o [1]
+    .data            inited   0x200011cc     0x18  UartLeg.o [1]
+    .data            inited   0x200011e4      0x8  XShttio.o [3]
+    .textrw          inited   0x200011ec    0x158  em_msc.o [1]
+    .data            inited   0x20001344      0x1  AxisMotor.o [1]
+                            - 0x20001345    0x345
+
+"P2", part 2 of 3:                          0x678
+  .noinit            uninit   0x20001348     0x50  main.o [1]
+  .noinit            uninit   0x20001398     0x40  main.o [1]
+  .noinit            uninit   0x200013d8     0x3d  main.o [1]
+  .noinit            uninit   0x20001415      0x2  Rock.o [1]
+  .noinit            uninit   0x20001417      0x1  MassageStatus.o [1]
+  .noinit            uninit   0x20001418     0x30  main.o [1]
+  .noinit            uninit   0x20001448     0x20  Timer.o [1]
+  .noinit            uninit   0x20001468     0x1c  main.o [1]
+  .noinit            uninit   0x20001484     0x17  main.o [1]
+  .noinit            uninit   0x2000149c     0x15  main.o [1]
+  .noinit            uninit   0x200014b4     0x14  main.o [1]
+  .noinit            uninit   0x200014c8     0x14  main.o [1]
+  .noinit            uninit   0x200014dc     0x14  main.o [1]
+  .noinit            uninit   0x200014f0     0x14  main.o [1]
+  .noinit            uninit   0x20001504     0x14  main.o [1]
+  .noinit            uninit   0x20001518     0x14  main.o [1]
+  .noinit            uninit   0x2000152c     0x14  main.o [1]
+  .noinit            uninit   0x20001540     0x14  main.o [1]
+  .noinit            uninit   0x20001554     0x14  main.o [1]
+  .noinit            uninit   0x20001568     0x14  main.o [1]
+  .noinit            uninit   0x2000157c     0x14  main.o [1]
+  .noinit            uninit   0x20001590     0x14  main.o [1]
+  .noinit            uninit   0x200015a4      0xc  Data_Cul.o [1]
+  .noinit            uninit   0x200015b0      0x8  Valve.o [1]
+  .noinit            uninit   0x200015b8      0x4  main.o [1]
+  .noinit            uninit   0x200015bc      0x4  main.o [1]
+  CSTACK                      0x200015c0    0x400  <Block>
+    CSTACK           uninit   0x200015c0    0x400  <Block tail>
+                            - 0x200019c0    0x678
+
+"P2", part 3 of 3:                         0x1520
+  .bss               zero     0x200019c0    0xf18  AxisMotor.o [1]
+  .bss               zero     0x20002900    0x180  DMA_Ctrl.o [1]
+  .bss               zero     0x20002a80    0x10c  HandUart_New.o [1]
+  .bss               zero     0x20002b8c     0x90  DMA_Ctrl.o [1]
+  .bss               zero     0x20002c1c     0x4c  Valve.o [1]
+  .bss               zero     0x20002c68     0x3c  main.o [1]
+  .bss               zero     0x20002ca4     0x34  main.o [1]
+  .bss               zero     0x20002cd8     0x28  main.o [1]
+  .bss               zero     0x20002d00     0x21  HandUart_New.o [1]
+  .bss               zero     0x20002d21      0x2  main.o [1]
+  .bss               zero     0x20002d23      0x1  ADC_scan.o [1]
+  .bss               zero     0x20002d24     0x1c  AxisMotor.o [1]
+  .bss               zero     0x20002d40     0x1c  WalkMotor.o [1]
+  .bss               zero     0x20002d5c     0x18  LED_RGB.o [1]
+  .bss               zero     0x20002d74     0x14  ADC_scan.o [1]
+  .bss               zero     0x20002d88     0x14  LegMotor.o [1]
+  .bss               zero     0x20002d9c     0x14  main.o [1]
+  .bss               zero     0x20002db0     0x14  problem.o [1]
+  .bss               zero     0x20002dc4     0x14  SingleLine.o [1]
+  .bss               zero     0x20002dd8     0x14  system.o [1]
+  .bss               zero     0x20002dec     0x10  KneadMotor.o [1]
+  .bss               zero     0x20002dfc     0x10  VoiceUart.o [1]
+  .bss               zero     0x20002e0c      0xf  UartLeg.o [1]
+  .bss               zero     0x20002e1b      0x1  Flex_Uart .o [1]
+  .bss               zero     0x20002e1c      0xc  main.o [1]
+  .bss               zero     0x20002e28      0xc  main.o [1]
+  .bss               zero     0x20002e34      0xc  SlideMotor.o [1]
+  .bss               zero     0x20002e40      0x8  KnockMotor_8840.o [1]
+  .bss               zero     0x20002e48      0x8  LegMotor.o [1]
+  .bss               zero     0x20002e50      0x8  main.o [1]
+  .bss               zero     0x20002e58      0x8  Rock.o [1]
+  .bss               zero     0x20002e60      0x8  Roller_Uart.o [1]
+  .bss               zero     0x20002e68      0x4  Flex_Uart .o [1]
+  .bss               zero     0x20002e6c      0x4  Flex_Uart .o [1]
+  .bss               zero     0x20002e70      0x4  Flex_Uart .o [1]
+  .bss               zero     0x20002e74      0x4  Flex_Uart .o [1]
+  .bss               zero     0x20002e78      0x4  Flex_Uart .o [1]
+  .bss               zero     0x20002e7c      0x4  Flex_Uart .o [1]
+  .bss               zero     0x20002e80      0x4  Flex_Uart .o [1]
+  .bss               zero     0x20002e84      0x4  Input.o [1]
+  .bss               zero     0x20002e88      0x4  Input.o [1]
+  .bss               zero     0x20002e8c      0x4  Input.o [1]
+  .bss               zero     0x20002e90      0x4  Input.o [1]
+  .bss               zero     0x20002e94      0x4  Input.o [1]
+  .bss               zero     0x20002e98      0x4  Input.o [1]
+  .bss               zero     0x20002e9c      0x4  Input.o [1]
+  .bss               zero     0x20002ea0      0x4  KneadMotor.o [1]
+  .bss               zero     0x20002ea4      0x4  main.o [1]
+  .bss               zero     0x20002ea8      0x4  Roller_Uart.o [1]
+  .bss               zero     0x20002eac      0x4  system_efm32lg.o [1]
+  .bss               zero     0x20002eb0      0x4  Valve.o [1]
+  .bss               zero     0x20002eb4      0x4  Valve.o [1]
+  .bss               zero     0x20002eb8      0x4  WaistHot.o [1]
+  .bss               zero     0x20002ebc      0x2  em_emu.o [1]
+  .bss               zero     0x20002ebe      0x2  Input.o [1]
+  .bss               zero     0x20002ec0      0x2  Input.o [1]
+  .bss               zero     0x20002ec2      0x2  Input.o [1]
+  .bss               zero     0x20002ec4      0x1  Flex_Uart .o [1]
+  .bss               zero     0x20002ec5      0x1  Flex_Uart .o [1]
+  .bss               zero     0x20002ec6      0x1  Flex_Uart .o [1]
+  .bss               zero     0x20002ec7      0x1  Flex_Uart .o [1]
+  .bss               zero     0x20002ec8      0x1  Input.o [1]
+  .bss               zero     0x20002ec9      0x1  Input.o [1]
+  .bss               zero     0x20002eca      0x1  Input.o [1]
+  .bss               zero     0x20002ecb      0x1  Input.o [1]
+  .bss               zero     0x20002ecc      0x1  Input.o [1]
+  .bss               zero     0x20002ecd      0x1  Input.o [1]
+  .bss               zero     0x20002ece      0x1  Input.o [1]
+  .bss               zero     0x20002ecf      0x1  Input.o [1]
+  .bss               zero     0x20002ed0      0x1  Input.o [1]
+  .bss               zero     0x20002ed1      0x1  Input.o [1]
+  .bss               zero     0x20002ed2      0x1  Input.o [1]
+  .bss               zero     0x20002ed3      0x1  Input.o [1]
+  .bss               zero     0x20002ed4      0x1  Input.o [1]
+  .bss               zero     0x20002ed5      0x1  Input.o [1]
+  .bss               zero     0x20002ed6      0x1  main.o [1]
+  .bss               zero     0x20002ed7      0x1  main.o [1]
+  .bss               zero     0x20002ed8      0x1  main.o [1]
+  .bss               zero     0x20002ed9      0x1  SingleLine.o [1]
+  .bss               zero     0x20002eda      0x1  Timer.o [1]
+  .bss               zero     0x20002edb      0x1  UartLeg.o [1]
+  .bss               zero     0x20002edc      0x1  xmodem.o [1]
+                            - 0x20002edd   0x151d
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x151d:
+          0x200019c0  0x151d
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x1b0 (51% of destination):
+          0x0001d1ec   0x1b0
+    1 destination range, total size 0x345:
+          0x20001000   0x345
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  rw code  ro data  rw data
+    ------                 -------  -------  -------  -------
+C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj: [1]
+    ADC_scan.o                 444                 2       25
+    AxisMotor.o              2 356                 1    3 893
+    BackPad.o                1 216                12       24
+    BlueTooth.o                676                50       96
+    DMA_Ctrl.o                  40                        528
+    Data_Cul.o                 204                         12
+    Flex_Uart .o             1 924                30       37
+    HandUart_New.o             496                 4      309
+    IndicateLED.o               94
+    Input.o                  1 920                         48
+    KneadMotor.o               676                         20
+    KnockMotor_8840.o          388                          8
+    LED_RGB.o                  936                         24
+    LegMotor.o                 916                         28
+    MassageStatus.o                                         1
+    Mp3Ctrl.o                    2
+    Power.o                    160
+    Rock.o                     832                         10
+    Roller_Uart.o              672                         12
+    SingleLine.o             1 232                21       63
+    SlideMotor.o               692                         12
+    Timer.o                    140                         33
+    UartLeg.o                  868                60      132
+    Valve.o                  3 312                         92
+    VoiceUart.o                 96                         16
+    WaistHot.o                 124                          4
+    WalkMotor.o              2 228                         28
+    em_adc.o                   436
+    em_cmu.o                 2 308
+    em_dma.o                   684
+    em_emu.o                    20                          2
+    em_gpio.o                  224
+    em_letimer.o               180
+    em_leuart.o                248
+    em_msc.o                   124      344      178
+    em_system.o                 32
+    em_timer.o                 310
+    em_usart.o                 446
+    em_vcmp.o                  284
+    em_wdog.o                   20
+    main.o                  55 076            24 098      914
+    memory.o                    98
+    problem.o                  196                         20
+    signalUart_new.o           376                27       52
+    startup_efm32lg.o          428
+    system.o                 1 268                         20
+    system_efm32lg.o           256                 5       12
+    xmodem.o                    14                          1
+    ---------------------------------------------------------
+    Total:                  85 672      344   24 488    6 476
+
+command line: [2]
+    ---------------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    XShttio.o                    8                 4        8
+    exit.o                       4
+    low_level_init.o             4
+    memcpy.o                    12
+    ---------------------------------------------------------
+    Total:                      28                 4        8
+
+m7M_tl.a: [4]
+    FltAdd.o                   132
+    FltDiv.o                   252
+    FltSub.o                   214
+    FltToU32.o                  36
+    ---------------------------------------------------------
+    Total:                     634
+
+rt7M_tl.a: [5]
+    ABImemcpy_unaligned.o      118
+    ABImemset.o                102
+    ABImemset48.o               58
+    cexit.o                     10
+    cmain.o                     26
+    cstartup_M.o                12
+    data_init.o                 40
+    lz77_init_single.o         120
+    zero_init3.o                64
+    ---------------------------------------------------------
+    Total:                     550
+
+shb_l.a: [6]
+    exit.o                      20
+    iarttio.o                   48
+    ---------------------------------------------------------
+    Total:                      68
+
+    Gaps                        24                         46
+    Linker created              16                32    1 024
+-------------------------------------------------------------
+    Grand Total:            86 992      344   24 528    7 554
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x0001d090           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0001d0b0           --   Gb  - Linker created -
+?main                   0x0001d0b1          Code  Gb  cmain.o [5]
+ADCConfig               0x00013fef    0x6c  Code  Lc  ADC_scan.o [1]
+ADC_CalibrateLoadScan   0x00016dc9    0x9e  Code  Lc  em_adc.o [1]
+ADC_Convert_Voltage     0x000140f1    0x12  Code  Gb  ADC_scan.o [1]
+ADC_Convert_Voltage_heat
+                        0x00014103    0x12  Code  Gb  ADC_scan.o [1]
+ADC_Data_Init           0x000140c1    0x1a  Code  Gb  ADC_scan.o [1]
+ADC_Get_Inttemp         0x00014115     0x6  Code  Gb  ADC_scan.o [1]
+ADC_Get_Updata          0x000140db    0x16  Code  Gb  ADC_scan.o [1]
+ADC_Get_Voltage         0x0001411b    0x32  Code  Gb  ADC_scan.o [1]
+ADC_Init                0x00016e69    0x34  Code  Gb  em_adc.o [1]
+ADC_InitScan            0x00016e9d    0x58  Code  Gb  em_adc.o [1]
+ADC_PrescaleCalc        0x00016ef5    0x36  Code  Gb  em_adc.o [1]
+ADC_Start               0x00013fc5     0x4  Code  Lc  ADC_scan.o [1]
+ADC_Stop                0x0001414d     0x8  Code  Gb  ADC_scan.o [1]
+ADC_TimebaseCalc        0x00016f2b    0x2a  Code  Gb  em_adc.o [1]
+AD_KNOCK_PWM            0x0000260d    0x34  Code  Gb  main.o [1]
+AirBagGetNextStep       0x00010629    0x4e  Code  Gb  Valve.o [1]
+AirBagModeArm           0x00008168    0x68  Data  Gb  main.o [1]
+AirBagModeArmSholder    0x0000b874   0x370  Data  Gb  main.o [1]
+AirBagModeArmSholderBackWaist
+                        0x0001bbe4   0x410  Data  Gb  main.o [1]
+AirBagModeArmSholder_Seat
+                        0x0001c794   0x2a8  Data  Gb  main.o [1]
+AirBagModeBackWaist     0x0000bc7c    0xe0  Data  Gb  main.o [1]
+AirBagModeLegFoot       0x00007fc0   0x1a8  Data  Gb  main.o [1]
+AirBagModeLegFootSeat   0x0001bff4   0x360  Data  Gb  main.o [1]
+AirBagModeLegFootSeat_Growth
+                        0x00007fb8     0x8  Data  Gb  main.o [1]
+AirBagModeLegFoot_ArmSholder
+                        0x0001c354   0x440  Data  Gb  main.o [1]
+AirBagModeLegFoot_ArmSholder_Seat
+                        0x0001ca3c   0x4f0  Data  Gb  main.o [1]
+AirBagModeLegFoot_Seat  0x000081d0   0x2a8  Data  Gb  main.o [1]
+AirBagModeSeat          0x0000bbe4    0x98  Data  Gb  main.o [1]
+ArmAirBagAction         0x00010593    0x92  Code  Gb  Valve.o [1]
+ArmSholderAirBagAction  0x000104ad    0xe6  Code  Gb  Valve.o [1]
+AutoDirector            0x200014b4     0xc  Data  Gb  main.o [1]
+AutoFunction0           0x00017198  0x1758  Data  Gb  main.o [1]
+AutoFunction1           0x0000e5d8   0x18c  Data  Gb  main.o [1]
+AutoFunction2           0x0000e764   0xfd8  Data  Gb  main.o [1]
+AutoFunction3           0x000188f0   0x408  Data  Gb  main.o [1]
+AutoFunction4           0x00018cf8   0xd5c  Data  Gb  main.o [1]
+AutoFunction5           0x00019a54   0x8d0  Data  Gb  main.o [1]
+AutoFunction6           0x00004ac0  0x1290  Data  Gb  main.o [1]
+AutoFunction7           0x0001a324   0x7d4  Data  Gb  main.o [1]
+AutoFunction8           0x0001aaf8   0x8ac  Data  Gb  main.o [1]
+AutoFunctionStretch     0x000064ec    0x3c  Data  Gb  main.o [1]
+Auto_Calibration        0x0000a51d   0x2dc  Code  Gb  main.o [1]
+Auto_Calibration::positionCount
+                        0x20002e2c     0x4  Data  Lc  main.o [1]
+Auto_Calibration::positionTicks
+                        0x20002e30     0x4  Data  Lc  main.o [1]
+Auto_Calibration::steps
+                        0x20002e28     0x4  Data  Lc  main.o [1]
+AxisMotor_100msInt      0x0001183b     0xa  Code  Gb  AxisMotor.o [1]
+AxisMotor_10msInt       0x00011845    0x1a  Code  Gb  AxisMotor.o [1]
+AxisMotor_Break         0x00011135    0x12  Code  Gb  AxisMotor.o [1]
+AxisMotor_ClockRun      0x000110fd    0x1c  Code  Gb  AxisMotor.o [1]
+AxisMotor_Control       0x0001114d   0x5b0  Code  Gb  AxisMotor.o [1]
+AxisMotor_Control::justPosition
+                        0x20002d38     0x4  Data  Lc  AxisMotor.o [1]
+AxisMotor_Control::oldPosition
+                        0x20002d30     0x2  Data  Lc  AxisMotor.o [1]
+AxisMotor_CurrentAdj    0x0001178d    0xae  Code  Gb  AxisMotor.o [1]
+AxisMotor_GetDirection  0x0001171f    0x14  Code  Gb  AxisMotor.o [1]
+AxisMotor_Get_Fault     0x0001170d    0x12  Code  Gb  AxisMotor.o [1]
+AxisMotor_IsRun         0x000110e7    0x16  Code  Gb  AxisMotor.o [1]
+AxisMotor_Reset         0x000116fd     0x8  Code  Gb  AxisMotor.o [1]
+AxisMotor_Reset_Cancel  0x00011705     0x8  Code  Gb  AxisMotor.o [1]
+AxisMotor_Set_Pwm_Data  0x000110b9    0x2e  Code  Gb  AxisMotor.o [1]
+AxisMotor_StorageCurrent
+                        0x00011759     0x2  Code  Gb  AxisMotor.o [1]
+AxisMotor_UnClockRun    0x00011119    0x1c  Code  Gb  AxisMotor.o [1]
+AxisMotor_UpdataPosition
+                        0x00011751     0x8  Code  Gb  AxisMotor.o [1]
+AxisMotor_VoltageAdj    0x00011073    0x44  Code  Gb  AxisMotor.o [1]
+AxisPower_Off           0x00011147     0x4  Code  Lc  AxisMotor.o [1]
+Axis_5ms_Int            0x00011733    0x1e  Code  Gb  AxisMotor.o [1]
+Axis_5ms_Int::timer5ms  0x20002d3c     0x4  Data  Lc  AxisMotor.o [1]
+Axis_Initial_IO         0x00010fe5    0x8e  Code  Gb  AxisMotor.o [1]
+BACK_AUTO_START_STEP    0x0001cf2c    0x14  Data  Gb  main.o [1]
+BACK_AUTO_STEPS         0x200010ac    0x48  Data  Gb  main.o [1]
+BITBAND_Peripheral      0x00015b85     0xe  Code  Lc  em_cmu.o [1]
+BITBAND_Peripheral      0x00016b59     0xe  Code  Lc  em_dma.o [1]
+BITBAND_Peripheral      0x00016631     0xe  Code  Lc  em_gpio.o [1]
+BITS_ValveData          0x20002c1c     0xc  Data  Gb  Valve.o [1]
+BackManualModeNoAction  0x00006eeb    0x34  Code  Gb  main.o [1]
+BackManualModeNoActionMemory
+                        0x000021b5    0x7c  Code  Gb  main.o [1]
+BackMotor_10ms_int      0x000121b3    0x10  Code  Gb  BackPad.o [1]
+BackMotor_Break         0x0001206d    0x70  Code  Gb  BackPad.o [1]
+BackMotor_Control       0x00012265   0x122  Code  Gb  BackPad.o [1]
+BackMotor_Down          0x00012051    0x1c  Code  Gb  BackPad.o [1]
+BackMotor_GetDirection  0x0001200b    0x12  Code  Gb  BackPad.o [1]
+BackMotor_GetPower      0x00011ff7    0x14  Code  Gb  BackPad.o [1]
+BackMotor_Get_Fault     0x000120e9    0x12  Code  Gb  BackPad.o [1]
+BackMotor_Get_Location  0x0001218f    0x1e  Code  Gb  BackPad.o [1]
+BackMotor_Get_Position  0x000121ad     0x6  Code  Gb  BackPad.o [1]
+BackMotor_Initial_IO    0x00011f61    0x96  Code  Gb  BackPad.o [1]
+BackMotor_Proce         0x00012217    0x4c  Code  Gb  BackPad.o [1]
+BackMotor_Reset         0x000120dd     0x6  Code  Gb  BackPad.o [1]
+BackMotor_Reset_Cancel  0x000120e3     0x6  Code  Gb  BackPad.o [1]
+BackMotor_Set_Location  0x0001336f     0x8  Code  Gb  Input.o [1]
+BackMotor_Up            0x00012035    0x1c  Code  Gb  BackPad.o [1]
+BackMotor_VoltageAdj    0x000120fb    0x36  Code  Gb  BackPad.o [1]
+BackPower_Off           0x0001201d    0x18  Code  Gb  BackPad.o [1]
+BackPulseCountHigh      0x20002ed3     0x1  Data  Gb  Input.o [1]
+BackPulseCountLow       0x20002ed4     0x1  Data  Gb  Input.o [1]
+BackPulseStep           0x20002ed5     0x1  Data  Lc  Input.o [1]
+Back_Motor_PwmSet_Fault_Process
+                        0x00012131    0x5e  Code  Gb  BackPad.o [1]
+BlueToothGetMode        0x00013f71    0x14  Code  Gb  BlueTooth.o [1]
+BlueToothMuteState      0x00013f63     0xe  Code  Gb  BlueTooth.o [1]
+BlueToothOff            0x00013f57     0x6  Code  Gb  BlueTooth.o [1]
+BlueToothOn             0x00013f5d     0x6  Code  Gb  BlueTooth.o [1]
+BlueToothRX_Index       0x20001024     0x1  Data  Gb  BlueTooth.o [1]
+BlueToothUart_ClearRXStatus
+                        0x00013f49     0x8  Code  Gb  BlueTooth.o [1]
+BlueToothUart_GetCtrlType
+                        0x00013f51     0x6  Code  Gb  BlueTooth.o [1]
+BlueToothUart_GetKey    0x00013f3d     0x6  Code  Gb  BlueTooth.o [1]
+BlueToothUart_GetRXStatus
+                        0x00013f37     0x6  Code  Gb  BlueTooth.o [1]
+BlueToothUart_Initial_IO
+                        0x00013d73    0x96  Code  Gb  BlueTooth.o [1]
+BlueToothUart_SetKey    0x00013f43     0x6  Code  Gb  BlueTooth.o [1]
+BlueToothUart_Transmit_Packet
+                        0x00013f35     0x2  Code  Gb  BlueTooth.o [1]
+BlueToothtxBuf          0x20001028    0x2c  Data  Gb  BlueTooth.o [1]
+BodyDataRefresh         0x00006e6d    0x2e  Code  Gb  main.o [1]
+BodyDetectStep          0x2000138c     0x4  Data  Gb  main.o [1]
+CHIP_Init               0x0000f879    0x30  Code  Lc  system.o [1]
+CMDPRO                  0x200010a0     0x1  Data  Gb  main.o [1]
+CMU_AUXClkGet           0x00015c4b    0x54  Code  Lc  em_cmu.o [1]
+CMU_ClockDivGet         0x00015d45    0xa8  Code  Gb  em_cmu.o [1]
+CMU_ClockDivSet         0x00015ded   0x18c  Code  Gb  em_cmu.o [1]
+CMU_ClockEnable         0x00015f79    0xb4  Code  Gb  em_cmu.o [1]
+CMU_ClockFreqGet        0x0001602d   0x10e  Code  Gb  em_cmu.o [1]
+CMU_ClockSelectGet      0x0001613d    0xaa  Code  Gb  em_cmu.o [1]
+CMU_ClockSelectSet      0x000161e9   0x156  Code  Gb  em_cmu.o [1]
+CMU_DBGClkGet           0x00015c9f    0x32  Code  Lc  em_cmu.o [1]
+CMU_DivToLog2           0x00015bbf     0xa  Code  Lc  em_cmu.o [1]
+CMU_FlashWaitStateControl
+                        0x00015bd1    0x7a  Code  Lc  em_cmu.o [1]
+CMU_FlashWaitStateMax   0x00015b95    0x2a  Code  Lc  em_cmu.o [1]
+CMU_HFRCOBandSet        0x00016341    0x7c  Code  Gb  em_cmu.o [1]
+CMU_IRQHandler          0x0000fbb9    0x26  Code  Gb  system.o [1]
+CMU_IntClear            0x0000f8a9     0x8  Code  Lc  system.o [1]
+CMU_IntEnable           0x0000f8b1     0xc  Code  Lc  system.o [1]
+CMU_LFClkGet            0x00015cd1    0x62  Code  Lc  em_cmu.o [1]
+CMU_Log2ToDiv           0x00015bc9     0x8  Code  Lc  em_cmu.o [1]
+CMU_OscillatorEnable    0x000163bd    0x5c  Code  Gb  em_cmu.o [1]
+CMU_Sync                0x00015d33    0x12  Code  Lc  em_cmu.o [1]
+CSTACK$$Base            0x200015c0           --   Gb  - Linker created -
+CSTACK$$Limit           0x200019c0           --   Gb  - Linker created -
+Cloud_Xmodem_Rec_packet
+                        0x00016b19     0x2  Code  Gb  xmodem.o [1]
+Cloud_Xmodem_Start_Rec_status
+                        0x00016b0d     0x6  Code  Gb  xmodem.o [1]
+Command_Memory_Out      0x20002c7d     0x1  Data  Gb  main.o [1]
+CycleCount              0x20002c7a     0x1  Data  Gb  main.o [1]
+DMAConfig               0x0001405b    0x66  Code  Lc  ADC_scan.o [1]
+DMA_ActivateBasic       0x00016c79    0x26  Code  Gb  em_dma.o [1]
+DMA_CfgChannel          0x00016c9f    0x48  Code  Gb  em_dma.o [1]
+DMA_CfgDescr            0x00016ce7    0x38  Code  Gb  em_dma.o [1]
+DMA_Ctrl_Init           0x00013f9d    0x28  Code  Gb  DMA_Ctrl.o [1]
+DMA_IRQHandler          0x00016bf9    0x80  Code  Gb  em_dma.o [1]
+DMA_Init                0x00016d1f    0x36  Code  Gb  em_dma.o [1]
+DMA_Prepare             0x00016b67    0x92  Code  Lc  em_dma.o [1]
+DMA_Reset               0x00016d55    0x3e  Code  Gb  em_dma.o [1]
+Data_Flag_Int           0x00014e5f     0x8  Code  Gb  Data_Cul.o [1]
+Data_Get_ProgramExecTime
+                        0x00014e85     0x6  Code  Gb  Data_Cul.o [1]
+Data_Get_Time           0x00014e67    0x18  Code  Gb  Data_Cul.o [1]
+Data_Get_TimeSecond     0x00014e7f     0x6  Code  Gb  Data_Cul.o [1]
+Data_Init               0x00014e2d    0x12  Code  Gb  Data_Cul.o [1]
+Data_Set_Start          0x00014e3f    0x20  Code  Gb  Data_Cul.o [1]
+Data_Set_Time           0x00014e8b     0x6  Code  Gb  Data_Cul.o [1]
+Data_Time_Counter_Proce
+                        0x00014e9d    0x4a  Code  Gb  Data_Cul.o [1]
+Data_Update_Time        0x00014e91     0xc  Code  Gb  Data_Cul.o [1]
+DemoFunction            0x0001b3a4   0x120  Data  Gb  main.o [1]
+EMU_UpdateOscConfig     0x00017185     0xa  Code  Gb  em_emu.o [1]
+FlexMotorEn             0x20002ec7     0x1  Data  Lc  Flex_Uart .o [1]
+FlexMotorFollowingFood  0x00014a31    0xfc  Code  Gb  Flex_Uart .o [1]
+FlexMotorGetEnable      0x00014b2d     0x6  Code  Gb  Flex_Uart .o [1]
+FlexMotorSetDisable     0x00014b41     0xe  Code  Gb  Flex_Uart .o [1]
+FlexMotorSetEnable      0x00014b33     0xe  Code  Gb  Flex_Uart .o [1]
+FlexMotor_100ms_Int     0x00014667    0x10  Code  Gb  Flex_Uart .o [1]
+FlexMotor_10ms_Int      0x000145a3    0x1a  Code  Gb  Flex_Uart .o [1]
+FlexMotor_Break         0x00014563    0x12  Code  Gb  Flex_Uart .o [1]
+FlexMotor_Control       0x0001467f   0x3b2  Code  Gb  Flex_Uart .o [1]
+FlexMotor_Control::position
+                        0x20002e80     0x4  Data  Lc  Flex_Uart .o [1]
+FlexMotor_Get_Fault     0x0001458d    0x16  Code  Gb  Flex_Uart .o [1]
+FlexMotor_In            0x00014547    0x1c  Code  Gb  Flex_Uart .o [1]
+FlexMotor_Initial_IO    0x0001448d    0x9e  Code  Gb  Flex_Uart .o [1]
+FlexMotor_Out           0x0001452b    0x1c  Code  Gb  Flex_Uart .o [1]
+FlexMotor_Reset         0x00014575     0xc  Code  Gb  Flex_Uart .o [1]
+FlexMotor_Reset_Cancel  0x00014581     0xc  Code  Gb  Flex_Uart .o [1]
+FlexPower_Get           0x00014639    0x18  Code  Gb  Flex_Uart .o [1]
+FlexPower_Off           0x0001462f     0xa  Code  Gb  Flex_Uart .o [1]
+FlexPower_On            0x00014623     0xc  Code  Gb  Flex_Uart .o [1]
+FlexSwtichSignal        0x20001112     0x1  Data  Lc  signalUart_new.o [1]
+Flex_GetDirection       0x00014651    0x16  Code  Gb  Flex_Uart .o [1]
+Flex_In_Delay           0x20002e68     0x4  Data  Lc  Flex_Uart .o [1]
+Flex_In_Fault           0x20002e78     0x4  Data  Gb  Flex_Uart .o [1]
+FlexkMotor_Set_Pwm_Data
+                        0x000145bd    0x66  Code  Gb  Flex_Uart .o [1]
+GPIO_EVEN_IRQHandler    0x00012d71    0x5c  Code  Gb  Input.o [1]
+GPIO_IntClear           0x00012c69     0x8  Code  Lc  Input.o [1]
+GPIO_IntClear           0x00015405     0x8  Code  Lc  SingleLine.o [1]
+GPIO_IntConfig          0x0001663f    0x58  Code  Gb  em_gpio.o [1]
+GPIO_IntGet             0x00012c71     0x8  Code  Lc  Input.o [1]
+GPIO_IntGet             0x0001540d     0x8  Code  Lc  SingleLine.o [1]
+GPIO_ODD_IRQHandler     0x00012d6f     0x2  Code  Gb  Input.o [1]
+GPIO_PinInGet           0x00010f79    0x16  Code  Lc  AxisMotor.o [1]
+GPIO_PinInGet           0x00011ef5    0x16  Code  Lc  BackPad.o [1]
+GPIO_PinInGet           0x00014421    0x16  Code  Lc  Flex_Uart .o [1]
+GPIO_PinInGet           0x00012c79    0x16  Code  Lc  Input.o [1]
+GPIO_PinInGet           0x0000fdf5    0x14  Code  Lc  KneadMotor.o [1]
+GPIO_PinInGet           0x000133e9    0x14  Code  Lc  KnockMotor_8840.o [1]
+GPIO_PinInGet           0x00011b61    0x16  Code  Lc  LegMotor.o [1]
+GPIO_PinInGet           0x000020f9    0x16  Code  Lc  main.o [1]
+GPIO_PinInGet           0x00014181    0x14  Code  Lc  Roller_Uart.o [1]
+GPIO_PinInGet           0x00015415    0x16  Code  Lc  SingleLine.o [1]
+GPIO_PinInGet           0x000118ad    0x14  Code  Lc  SlideMotor.o [1]
+GPIO_PinInGet           0x000123b5    0x16  Code  Lc  WalkMotor.o [1]
+GPIO_PinModeSet         0x00016697    0x64  Code  Gb  em_gpio.o [1]
+GPIO_PinOutClear        0x00010f8f    0x16  Code  Lc  AxisMotor.o [1]
+GPIO_PinOutClear        0x00011f0b    0x16  Code  Lc  BackPad.o [1]
+GPIO_PinOutClear        0x00013d1d    0x14  Code  Lc  BlueTooth.o [1]
+GPIO_PinOutClear        0x00014437    0x16  Code  Lc  Flex_Uart .o [1]
+GPIO_PinOutClear        0x0000fd95    0x14  Code  Lc  IndicateLED.o [1]
+GPIO_PinOutClear        0x0000fe09    0x14  Code  Lc  KneadMotor.o [1]
+GPIO_PinOutClear        0x000133fd    0x14  Code  Lc  KnockMotor_8840.o [1]
+GPIO_PinOutClear        0x00011b77    0x14  Code  Lc  LegMotor.o [1]
+GPIO_PinOutClear        0x0000fcf5    0x14  Code  Lc  Power.o [1]
+GPIO_PinOutClear        0x00014195    0x14  Code  Lc  Roller_Uart.o [1]
+GPIO_PinOutClear        0x000118c1    0x14  Code  Lc  SlideMotor.o [1]
+GPIO_PinOutClear        0x000139b9    0x14  Code  Lc  UartLeg.o [1]
+GPIO_PinOutClear        0x00010289    0x16  Code  Lc  Valve.o [1]
+GPIO_PinOutClear        0x00014d1d    0x14  Code  Lc  VoiceUart.o [1]
+GPIO_PinOutClear        0x00013571    0x14  Code  Lc  WaistHot.o [1]
+GPIO_PinOutClear        0x000123cb    0x16  Code  Lc  WalkMotor.o [1]
+GPIO_PinOutGet          0x00010fa5    0x16  Code  Lc  AxisMotor.o [1]
+GPIO_PinOutGet          0x00011f21    0x16  Code  Lc  BackPad.o [1]
+GPIO_PinOutGet          0x00013d31    0x14  Code  Lc  BlueTooth.o [1]
+GPIO_PinOutGet          0x0001444d    0x16  Code  Lc  Flex_Uart .o [1]
+GPIO_PinOutGet          0x00012c8f    0x16  Code  Lc  Input.o [1]
+GPIO_PinOutGet          0x00011b8b    0x14  Code  Lc  LegMotor.o [1]
+GPIO_PinOutGet          0x00013585    0x14  Code  Lc  WaistHot.o [1]
+GPIO_PinOutGet          0x000123e1    0x16  Code  Lc  WalkMotor.o [1]
+GPIO_PinOutSet          0x00010fbb    0x16  Code  Lc  AxisMotor.o [1]
+GPIO_PinOutSet          0x00011f37    0x16  Code  Lc  BackPad.o [1]
+GPIO_PinOutSet          0x00013d45    0x14  Code  Lc  BlueTooth.o [1]
+GPIO_PinOutSet          0x00014463    0x16  Code  Lc  Flex_Uart .o [1]
+GPIO_PinOutSet          0x0000fda9    0x14  Code  Lc  IndicateLED.o [1]
+GPIO_PinOutSet          0x0000fe1d    0x14  Code  Lc  KneadMotor.o [1]
+GPIO_PinOutSet          0x00013411    0x14  Code  Lc  KnockMotor_8840.o [1]
+GPIO_PinOutSet          0x00011b9f    0x14  Code  Lc  LegMotor.o [1]
+GPIO_PinOutSet          0x0000fd09    0x14  Code  Lc  Power.o [1]
+GPIO_PinOutSet          0x000141a9    0x14  Code  Lc  Roller_Uart.o [1]
+GPIO_PinOutSet          0x000118d5    0x14  Code  Lc  SlideMotor.o [1]
+GPIO_PinOutSet          0x000139cd    0x14  Code  Lc  UartLeg.o [1]
+GPIO_PinOutSet          0x0001029f    0x16  Code  Lc  Valve.o [1]
+GPIO_PinOutSet          0x00013599    0x14  Code  Lc  WaistHot.o [1]
+GPIO_PinOutSet          0x000123f7    0x16  Code  Lc  WalkMotor.o [1]
+GPIO_PinOutToggle       0x0000fdbd    0x14  Code  Lc  IndicateLED.o [1]
+GetProdRev              0x000158c1     0x8  Code  Lc  system_efm32lg.o [1]
+GetbRockEnable          0x000151eb     0x6  Code  Gb  Rock.o [1]
+GetnRockModeEnterExit   0x000151fd     0x6  Code  Gb  Rock.o [1]
+GlobalFlags0            0x2000142c     0x4  Data  Gb  main.o [1]
+GlobalFlags1            0x20001430     0x4  Data  Gb  main.o [1]
+GlobalFlags10           0x20001438     0x4  Data  Gb  main.o [1]
+GlobalFlags2            0x200014c4     0x4  Data  Gb  main.o [1]
+GlobalFlags3            0x20001354     0x4  Data  Gb  main.o [1]
+GlobalFlags4            0x20001358     0x4  Data  Gb  main.o [1]
+GlobalFlags5            0x2000135c     0x4  Data  Gb  main.o [1]
+GlobalFlags6            0x20001360     0x4  Data  Gb  main.o [1]
+GlobalFlags7            0x20001364     0x4  Data  Gb  main.o [1]
+GlobalFlags8            0x20001368     0x4  Data  Gb  main.o [1]
+GlobalFlags9            0x20001434     0x4  Data  Gb  main.o [1]
+GrowthStepMaxA          0x20002c90     0x4  Data  Gb  main.o [1]
+GrowthStepMaxB          0x20002c94     0x4  Data  Gb  main.o [1]
+HAND_Initial_IO         0x000100d3    0x90  Code  Gb  HandUart_New.o [1]
+HandUart_ClearRXStatus  0x00010247     0x8  Code  Gb  HandUart_New.o [1]
+HandUart_GetCtrlType    0x0001024f     0x6  Code  Gb  HandUart_New.o [1]
+HandUart_GetExternKey   0x0001023b     0x6  Code  Gb  HandUart_New.o [1]
+HandUart_GetKey         0x00010235     0x6  Code  Gb  HandUart_New.o [1]
+HandUart_GetRXStatus    0x0001022f     0x6  Code  Gb  HandUart_New.o [1]
+HandUart_SetKey         0x00010241     0x6  Code  Gb  HandUart_New.o [1]
+HandUart_Transmit_Packet
+                        0x0001022d     0x2  Code  Gb  HandUart_New.o [1]
+HardFault_Handler       0x0000f7f1     0xe  Code  Gb  main.o [1]
+InBuffer                0x2000143c     0xc  Data  Gb  main.o [1]
+IndicateLED_Initial_IO  0x0000fdd5     0xc  Code  Gb  IndicateLED.o [1]
+IndicateLED_Off         0x0000fde7     0x6  Code  Gb  IndicateLED.o [1]
+IndicateLED_On          0x0000fde1     0x6  Code  Gb  IndicateLED.o [1]
+IndicateLED_Toggle      0x0000fded     0x6  Code  Gb  IndicateLED.o [1]
+InputData1              0x20002e84     0x4  Data  Gb  Input.o [1]
+InputData2              0x20002e88     0x4  Data  Gb  Input.o [1]
+Input_5ms_Int           0x00012e07    0x30  Code  Gb  Input.o [1]
+Input_Back_Pulse1MS     0x00012ca5    0xca  Code  Gb  Input.o [1]
+Input_Get3DBackSwitch   0x0001326b     0x6  Code  Gb  Input.o [1]
+Input_Get3DFrontSwitch  0x00013265     0x6  Code  Gb  Input.o [1]
+Input_GetArmStatus      0x00013c5f    0x5e  Code  Gb  UartLeg.o [1]
+Input_GetAxisMotorPosition
+                        0x00012de3     0x8  Code  Gb  Input.o [1]
+Input_GetBackDownSwitch
+                        0x000132a3     0xa  Code  Gb  Input.o [1]
+Input_GetBackPosition   0x00013363     0x6  Code  Gb  Input.o [1]
+Input_GetBackUpSwitch   0x00013299     0xa  Code  Gb  Input.o [1]
+Input_GetFlexAngleSwitch
+                        0x000132d5     0xa  Code  Gb  Input.o [1]
+Input_GetFlexFootSwitch
+                        0x000132c1     0xa  Code  Gb  Input.o [1]
+Input_GetFlexGroundSwitch
+                        0x000132cb     0xa  Code  Gb  Input.o [1]
+Input_GetFlexInSwitch   0x00013323     0xa  Code  Gb  Input.o [1]
+Input_GetFlexOutSwitch  0x0001332d     0xa  Code  Gb  Input.o [1]
+Input_GetKneadMax       0x00013253     0x6  Code  Gb  Input.o [1]
+Input_GetKneadMid       0x00013259     0x6  Code  Gb  Input.o [1]
+Input_GetKneadMin       0x0001325f     0x6  Code  Gb  Input.o [1]
+Input_GetKneadPosition  0x0001335d     0x6  Code  Gb  Input.o [1]
+Input_GetLegDownSwitch  0x0001328f     0xa  Code  Gb  Input.o [1]
+Input_GetLegUpSwitch    0x00013285     0xa  Code  Gb  Input.o [1]
+Input_GetSlideBackwardSwitch
+                        0x000132df    0x22  Code  Gb  Input.o [1]
+Input_GetSlideForwardSwitch
+                        0x00013301    0x22  Code  Gb  Input.o [1]
+Input_GetVout           0x00013271    0x14  Code  Gb  Input.o [1]
+Input_GetWalkDownSwitch
+                        0x000132b7     0xa  Code  Gb  Input.o [1]
+Input_GetWalkMotorPosition
+                        0x00012dd7     0xc  Code  Gb  Input.o [1]
+Input_GetWalkUpSwitch   0x000132ad     0xa  Code  Gb  Input.o [1]
+Input_Get_Mim_Max       0x00013337    0x26  Code  Gb  Input.o [1]
+Input_High              0x00012e37    0x1a  Code  Gb  Input.o [1]
+Input_Initial_IO        0x00012deb    0x1c  Code  Gb  Input.o [1]
+Input_Low               0x00012e51    0x1a  Code  Gb  Input.o [1]
+Input_Proce             0x00012e6b   0x3e8  Code  Gb  Input.o [1]
+Input_Proce::counter    0x20002e9c     0x4  Data  Lc  Input.o [1]
+Input_Proce::nOldCurAxisLocate
+                        0x20002ec2     0x2  Data  Lc  Input.o [1]
+Input_SetBackMotorPosition
+                        0x00013369     0x6  Code  Gb  Input.o [1]
+Input_SetWalkMotorPosition
+                        0x00012dcd     0xa  Code  Gb  Input.o [1]
+KneadMotorControl       0x00002bb9   0xd18  Code  Gb  main.o [1]
+KneadMotor_10ms_Int     0x0000fed5     0xa  Code  Gb  KneadMotor.o [1]
+KneadMotor_Break        0x0000ffa5    0x3a  Code  Gb  KneadMotor.o [1]
+KneadMotor_CalculateSpeed
+                        0x00010079     0x2  Code  Gb  KneadMotor.o [1]
+KneadMotor_ClockRun     0x0000ff6d    0x1c  Code  Gb  KneadMotor.o [1]
+KneadMotor_Control      0x00010009    0x70  Code  Gb  KneadMotor.o [1]
+KneadMotor_Get_Fault    0x0000fff5    0x12  Code  Gb  KneadMotor.o [1]
+KneadMotor_Initial_IO   0x0000fe3d    0x8c  Code  Gb  KneadMotor.o [1]
+KneadMotor_Reset        0x0000fec9     0x6  Code  Gb  KneadMotor.o [1]
+KneadMotor_Reset_Cancel
+                        0x0000fecf     0x6  Code  Gb  KneadMotor.o [1]
+KneadMotor_Set_Pwm_Data
+                        0x0000ff15    0x58  Code  Lc  KneadMotor.o [1]
+KneadMotor_UnClockRun   0x0000ff89    0x1c  Code  Gb  KneadMotor.o [1]
+KneadMotor_VoltageAdj   0x0000fedf    0x36  Code  Gb  KneadMotor.o [1]
+KneadState              0x20002c73     0x1  Data  Gb  main.o [1]
+KneadTimesCount         0x20002c79     0x1  Data  Gb  main.o [1]
+Knead_InProcess         0x00002b39    0x2c  Code  Gb  main.o [1]
+Knead_Max_Ok            0x20002c78     0x1  Data  Gb  main.o [1]
+Knead_Min_Ok            0x20002c77     0x1  Data  Gb  main.o [1]
+KnockMotorControl       0x000028f5   0x1c0  Code  Gb  main.o [1]
+KnockMotorControl::bKnockMotorPowerFlag
+                        0x20002c82     0x1  Data  Lc  main.o [1]
+KnockMotorControl::nKnockMotorStateTest
+                        0x20002c83     0x1  Data  Lc  main.o [1]
+KnockMotor_10msInt      0x00013539     0x8  Code  Gb  KnockMotor_8840.o [1]
+KnockMotor_Break        0x00013517    0x10  Code  Gb  KnockMotor_8840.o [1]
+KnockMotor_ClockRun     0x00013513     0x2  Code  Gb  KnockMotor_8840.o [1]
+KnockMotor_Get_Fault    0x00013527    0x12  Code  Gb  KnockMotor_8840.o [1]
+KnockMotor_Initial_IO   0x00013431    0x74  Code  Gb  KnockMotor_8840.o [1]
+KnockMotor_Reset        0x000134a5     0x6  Code  Gb  KnockMotor_8840.o [1]
+KnockMotor_Reset_Cancel
+                        0x000134ab     0x6  Code  Gb  KnockMotor_8840.o [1]
+KnockMotor_Set_Pwm_Data
+                        0x000134e7    0x2c  Code  Gb  KnockMotor_8840.o [1]
+KnockMotor_UnClockRun   0x00013515     0x2  Code  Gb  KnockMotor_8840.o [1]
+KnockMotor_VoltageAdj   0x000134b1    0x36  Code  Gb  KnockMotor_8840.o [1]
+KnockSlow_Flag          0x20002c7b     0x1  Data  Gb  main.o [1]
+KnockcurrentSpeed       0x20002e44     0x4  Data  Gb  KnockMotor_8840.o [1]
+LED_Enginrering         0x000138fc     0x8  Data  Gb  LED_RGB.o [1]
+LED_Idle                0x0001398c     0x8  Data  Gb  LED_RGB.o [1]
+LED_Problem             0x0001397c    0x10  Data  Gb  LED_RGB.o [1]
+LED_RGB_100ms_Int       0x000136f5     0xa  Code  Gb  LED_RGB.o [1]
+LED_RGB_10ms_Int        0x000136d1    0x24  Code  Gb  LED_RGB.o [1]
+LED_RGB_Initial_IO      0x00013603    0x84  Code  Gb  LED_RGB.o [1]
+LED_RGB_Proce           0x00013735   0x154  Code  Gb  LED_RGB.o [1]
+LED_RGB_Proce::OldState
+                        0x20002d62     0x1  Data  Lc  LED_RGB.o [1]
+LED_RGB_Set_All         0x00013899    0x20  Code  Gb  LED_RGB.o [1]
+LED_RGB_Set_Blue_Data   0x000136c9     0x8  Code  Gb  LED_RGB.o [1]
+LED_RGB_Set_Green_Data  0x000136c1     0x8  Code  Gb  LED_RGB.o [1]
+LED_RGB_Set_Pwm         0x00013701    0x34  Code  Gb  LED_RGB.o [1]
+LED_RGB_Set_Red_Data    0x000136b9     0x8  Code  Gb  LED_RGB.o [1]
+LED_RGB_Set_Route       0x00013687    0x32  Code  Gb  LED_RGB.o [1]
+LED_Running             0x0001390c    0x70  Data  Gb  LED_RGB.o [1]
+LED_Settle              0x000138d4    0x28  Data  Gb  LED_RGB.o [1]
+LED_WaitCommand         0x00013904     0x8  Data  Gb  LED_RGB.o [1]
+LED_count               0x20002d61     0x1  Data  Gb  LED_RGB.o [1]
+LETIMER0_IRQHandler     0x0000fbdf    0x12  Code  Gb  system.o [1]
+LETIMER_CompareSet      0x00016ff9    0x14  Code  Gb  em_letimer.o [1]
+LETIMER_Enable          0x0001700d    0x10  Code  Gb  em_letimer.o [1]
+LETIMER_Init            0x0001701d    0x7c  Code  Gb  em_letimer.o [1]
+LETIMER_IntClear        0x0000f8bd     0x4  Code  Lc  system.o [1]
+LETIMER_IntEnable       0x0000f8c1     0x8  Code  Lc  system.o [1]
+LETIMER_RepeatSet       0x00017099    0x14  Code  Gb  em_letimer.o [1]
+LETIMER_setup           0x0001542b    0x1e  Code  Gb  SingleLine.o [1]
+LEUART1_IRQHandler      0x00010163    0x9a  Code  Gb  HandUart_New.o [1]
+LEUART_BaudrateSet      0x00016857    0x40  Code  Gb  em_leuart.o [1]
+LEUART_Enable           0x000168a9    0x1a  Code  Gb  em_leuart.o [1]
+LEUART_FreezeEnable     0x000168c3    0x16  Code  Gb  em_leuart.o [1]
+LEUART_Init             0x000168d9    0x44  Code  Gb  em_leuart.o [1]
+LEUART_IntClear         0x000100bd     0x4  Code  Lc  HandUart_New.o [1]
+LEUART_IntDisable       0x000100c1     0xa  Code  Lc  HandUart_New.o [1]
+LEUART_IntEnable        0x000100cb     0x8  Code  Lc  HandUart_New.o [1]
+LEUART_Rx               0x0001691d     0xc  Code  Gb  em_leuart.o [1]
+LEUART_Sync             0x00016849     0xe  Code  Lc  em_leuart.o [1]
+LEUART_Tx               0x00016929    0x18  Code  Gb  em_leuart.o [1]
+LegFootAirBagAction     0x000103db    0x98  Code  Gb  Valve.o [1]
+LegMotor_10ms_int       0x00011d75     0x8  Code  Gb  LegMotor.o [1]
+LegMotor_Break          0x00011cab    0x42  Code  Gb  LegMotor.o [1]
+LegMotor_Control        0x00011de9    0xb2  Code  Gb  LegMotor.o [1]
+LegMotor_Control::position
+                        0x20002d98     0x4  Data  Lc  LegMotor.o [1]
+LegMotor_Down           0x00011c8f    0x1c  Code  Gb  LegMotor.o [1]
+LegMotor_GetDirection   0x00011e9b    0x14  Code  Gb  LegMotor.o [1]
+LegMotor_GetPower       0x00011eaf    0x12  Code  Gb  LegMotor.o [1]
+LegMotor_Get_Fault      0x00011ced    0x12  Code  Gb  LegMotor.o [1]
+LegMotor_Get_Position   0x00011cff     0x6  Code  Gb  LegMotor.o [1]
+LegMotor_Initial_IO     0x00011bd3    0x88  Code  Gb  LegMotor.o [1]
+LegMotor_Proce          0x00011d7d    0x6c  Code  Gb  LegMotor.o [1]
+LegMotor_Reset          0x00011bc7     0x6  Code  Gb  LegMotor.o [1]
+LegMotor_Reset_Cancel   0x00011bcd     0x6  Code  Gb  LegMotor.o [1]
+LegMotor_Set_Pwm_Data   0x00011d3b    0x3a  Code  Gb  LegMotor.o [1]
+LegMotor_Up             0x00011c73    0x1c  Code  Gb  LegMotor.o [1]
+LegMotor_VoltageAdj     0x00011d05    0x36  Code  Gb  LegMotor.o [1]
+LegPower_Get            0x00011c5b    0x14  Code  Gb  LegMotor.o [1]
+LegPower_Off            0x00011c6f     0x4  Code  Gb  LegMotor.o [1]
+Linbus_counter          0x20002ea7     0x1  Data  Gb  main.o [1]
+MEMORYA_Write_Memory    0x00014dc7    0x28  Code  Gb  memory.o [1]
+MEM_Read_Memory         0x00014dbd     0xa  Code  Gb  memory.o [1]
+MEM_Write_Memory        0x00014d93    0x2a  Code  Gb  memory.o [1]
+MP3Control1_Initial_IO  0x0001356d     0x2  Code  Gb  Mp3Ctrl.o [1]
+MSC_Deinit              0x00016fd9    0x10  Code  Gb  em_msc.o [1]
+MSC_ErasePage           0x20001269    0x68  Code  Gb  em_msc.o [1]
+MSC_Init                0x00016f7d    0x5c  Code  Gb  em_msc.o [1]
+MSC_WriteWord           0x200012d1    0x68  Code  Gb  em_msc.o [1]
+Main_ArmPad_Proce       0x00005d51    0xba  Code  Gb  main.o [1]
+Main_Arm_Start          0x00005e0b    0x5c  Code  Gb  main.o [1]
+Main_BackPad_Proce      0x00006d4d   0x120  Code  Gb  main.o [1]
+Main_BackProce          0x000044ed   0x57e  Code  Gb  main.o [1]
+Main_BlueToothSend      0x00007731   0x5e0  Code  Gb  main.o [1]
+Main_BlueToothSend::OutBufferBlueTooth
+                        0x20002d9c    0x14  Data  Lc  main.o [1]
+Main_BlueToothSend_OLD::OutBufferBlueTooth
+                        0x20002ca4    0x14  Data  Lc  main.o [1]
+Main_BlueToothSend_OLD::OutBufferBlueTooth_Old
+                        0x20002cc4    0x14  Data  Lc  main.o [1]
+Main_Close_Power        0x00006ec5    0x26  Code  Gb  main.o [1]
+Main_Demo               0x0000dfe5   0x4d4  Code  Gb  main.o [1]
+Main_Engineering        0x00008651  0x1c84  Code  Gb  main.o [1]
+Main_FlexPad_Proce      0x00005e67    0xdc  Code  Gb  main.o [1]
+Main_GetKey             0x00008479    0x5a  Code  Gb  main.o [1]
+Main_GetVoiceStatus     0x0000a33d    0x2e  Code  Gb  main.o [1]
+Main_Idle               0x0000df23    0xa2  Code  Gb  main.o [1]
+Main_Initial            0x0000e4b9    0xa2  Code  Gb  main.o [1]
+Main_Initial_Data       0x00007d31   0x282  Code  Gb  main.o [1]
+Main_Initial_IO         0x0000210f    0x64  Code  Gb  main.o [1]
+Main_LegPad_Proce       0x00005f43    0xfe  Code  Gb  main.o [1]
+Main_Massage_Position_Proce
+                        0x00006899   0x4a0  Code  Gb  main.o [1]
+Main_Problem            0x0000e55b    0x4a  Code  Gb  main.o [1]
+Main_Send               0x00007149   0x5cc  Code  Gb  main.o [1]
+Main_Send_Leg           0x00006f29   0x160  Code  Gb  main.o [1]
+Main_Settle             0x0000a881   0x254  Code  Gb  main.o [1]
+Main_Settle_1ST         0x0000a7f9    0x88  Code  Gb  main.o [1]
+Main_Sleep              0x0000a371   0x1aa  Code  Gb  main.o [1]
+Main_Start_3D           0x0000bd5d    0x88  Code  Gb  main.o [1]
+Main_Start_Auto         0x0000b6dd   0x172  Code  Gb  main.o [1]
+Main_Start_Manual       0x0000bdf5   0x596  Code  Gb  main.o [1]
+Main_Stop_All           0x000085f9    0x54  Code  Gb  main.o [1]
+Main_Valve_Proce        0x00006529   0x35c  Code  Gb  main.o [1]
+Main_WaitCommand        0x0000ab1d   0xbb4  Code  Gb  main.o [1]
+Main_Walk_Beep_Proce    0x000084d3    0xaa  Code  Gb  main.o [1]
+Main_Work               0x0000c3b5  0x1b6e  Code  Gb  main.o [1]
+ManualDirector          0x20001398    0x40  Data  Gb  main.o [1]
+Manual_Memory_Air_Postion
+                        0x00002231    0xce  Code  Gb  main.o [1]
+Manual_Memory_Walk_Postion
+                        0x000022ff    0xea  Code  Gb  main.o [1]
+Memory_In               0x000023e9    0xde  Code  Gb  main.o [1]
+Memory_Out              0x000024c7   0x146  Code  Gb  main.o [1]
+MscLoadAddress          0x200011ed    0x28  Code  Gb  em_msc.o [1]
+MscLoadData             0x20001215    0x54  Code  Gb  em_msc.o [1]
+MusicSampling           0x00002173    0x42  Code  Gb  main.o [1]
+NVIC_ClearPendingIRQ    0x00013d0b    0x12  Code  Lc  BlueTooth.o [1]
+NVIC_ClearPendingIRQ    0x00016b45    0x14  Code  Lc  em_dma.o [1]
+NVIC_ClearPendingIRQ    0x000100ab    0x12  Code  Lc  HandUart_New.o [1]
+NVIC_ClearPendingIRQ    0x00014bb7    0x12  Code  Lc  signalUart_new.o [1]
+NVIC_ClearPendingIRQ    0x000139a7    0x12  Code  Lc  UartLeg.o [1]
+NVIC_DisableIRQ         0x00016b31    0x14  Code  Lc  em_dma.o [1]
+NVIC_DisableIRQ         0x0000f815    0x14  Code  Lc  system.o [1]
+NVIC_EnableIRQ          0x00013cf9    0x12  Code  Lc  BlueTooth.o [1]
+NVIC_EnableIRQ          0x00016b1d    0x14  Code  Lc  em_dma.o [1]
+NVIC_EnableIRQ          0x00010099    0x12  Code  Lc  HandUart_New.o [1]
+NVIC_EnableIRQ          0x00014ba5    0x12  Code  Lc  signalUart_new.o [1]
+NVIC_EnableIRQ          0x000153f1    0x14  Code  Lc  SingleLine.o [1]
+NVIC_EnableIRQ          0x0000f801    0x14  Code  Lc  system.o [1]
+NVIC_EnableIRQ          0x00013995    0x12  Code  Lc  UartLeg.o [1]
+NVIC_SetPriority        0x0000f829    0x1e  Code  Lc  system.o [1]
+NVIC_SystemReset        0x000020dd    0x1c  Code  Lc  main.o [1]
+OutArmBuffer            0x200013d8    0x14  Data  Gb  main.o [1]
+OutBuffer               0x20001484    0x14  Data  Gb  main.o [1]
+OutLegBuffer_3D         0x20001400    0x14  Data  Gb  main.o [1]
+OutVoiceBuffer          0x200013ec    0x14  Data  Gb  main.o [1]
+Power_3V3_Off           0x0000fd51     0x6  Code  Gb  Power.o [1]
+Power_3V3_On            0x0000fd4b     0x6  Code  Gb  Power.o [1]
+Power_5V_Off            0x0000fd69     0x6  Code  Gb  Power.o [1]
+Power_5V_On             0x0000fd63     0x6  Code  Gb  Power.o [1]
+Power_All_Off           0x0000fd6f    0x16  Code  Gb  Power.o [1]
+Power_All_On            0x0000fd85    0x10  Code  Gb  Power.o [1]
+Power_Initial_IO        0x0000fd21    0x2a  Code  Gb  Power.o [1]
+Power_Off               0x0000fd5d     0x6  Code  Gb  Power.o [1]
+Power_On                0x0000fd57     0x6  Code  Gb  Power.o [1]
+Problem_10ms_Int        0x00015239     0x8  Code  Gb  problem.o [1]
+Problem_GetWalkSwitchFault
+                        0x000152f3     0x6  Code  Gb  problem.o [1]
+Problem_Proce           0x00015241    0xb2  Code  Gb  problem.o [1]
+RX_Counter              0x2000105c     0x4  Data  Gb  BlueTooth.o [1]
+RX_Index                0x20002d20     0x1  Data  Gb  HandUart_New.o [1]
+RX_Leg_Index            0x20001189     0x1  Data  Gb  UartLeg.o [1]
+RX_Start                0x20001060     0x4  Data  Gb  BlueTooth.o [1]
+ReadEEByte              0x00014d8d     0x6  Code  Gb  memory.o [1]
+RealTime_Position       0x20002d50     0x2  Data  Gb  WalkMotor.o [1]
+Rec_Bit                 0x20001151     0x1  Data  Gb  SingleLine.o [1]
+Rec_Buf                 0x20002dc4    0x14  Data  Gb  SingleLine.o [1]
+Rec_LEN                 0x20001153     0x1  Data  Gb  SingleLine.o [1]
+Rec_TimeOut             0x20001152     0x1  Data  Gb  SingleLine.o [1]
+Rec_data                0x20001150     0x1  Data  Gb  SingleLine.o [1]
+Region$$Table$$Base     0x0001d090           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0001d0b0           --   Gb  - Linker created -
+RockBackLegProcess      0x00014ef9    0xec  Code  Gb  Rock.o [1]
+RockControl             0x00015025   0x1c6  Code  Gb  Rock.o [1]
+RockFunctionEnable      0x00014fe5    0x3e  Code  Gb  Rock.o [1]
+RockStartTime           0x20002e5c     0x4  Data  Gb  Rock.o [1]
+RockStartTimeFlag       0x20002c7c     0x1  Data  Gb  main.o [1]
+RockStep                0x20001416     0x1  Data  Gb  Rock.o [1]
+Rock_100ms_Count        0x00015209     0xa  Code  Gb  Rock.o [1]
+RollerMotor_10msInt     0x000143e5     0xa  Code  Gb  Roller_Uart.o [1]
+RollerMotor_Break       0x00014315    0x12  Code  Gb  Roller_Uart.o [1]
+RollerMotor_ClockRun    0x000142dd    0x1c  Code  Gb  Roller_Uart.o [1]
+RollerMotor_Control     0x00014329    0xbc  Code  Gb  Roller_Uart.o [1]
+RollerMotor_Get_Fault   0x0001429f    0x12  Code  Gb  Roller_Uart.o [1]
+RollerMotor_Reset       0x00014287    0x12  Code  Gb  Roller_Uart.o [1]
+RollerMotor_Reset_Cancel
+                        0x00014299     0x6  Code  Gb  Roller_Uart.o [1]
+RollerMotor_Set_Pwm_Data
+                        0x000142b1    0x2c  Code  Gb  Roller_Uart.o [1]
+RollerMotor_UnClockRun  0x000142f9    0x1c  Code  Gb  Roller_Uart.o [1]
+RollerMotor_VoltageAdj  0x00014251    0x36  Code  Gb  Roller_Uart.o [1]
+Roller_Initial_IO       0x000141c9    0x88  Code  Gb  Roller_Uart.o [1]
+SPI_FlashWrite          0x0001036d    0x12  Code  Lc  Valve.o [1]
+SYSTEM_ChipRevisionGet  0x000159c1    0x1c  Code  Gb  em_system.o [1]
+SYS_Back_time           0x20002de2     0x2  Data  Gb  system.o [1]
+SeatAirBagAction        0x00010473    0x3a  Code  Gb  Valve.o [1]
+SendData                0x20001155     0x1  Data  Gb  SingleLine.o [1]
+Send_BuF                0x2000113c    0x14  Data  Gb  SingleLine.o [1]
+SetMassagePosition      0x0000f73d     0xe  Code  Gb  main.o [1]
+SetRockStep             0x000151f7     0x6  Code  Gb  Rock.o [1]
+SetbRockEnable          0x000151f1     0x6  Code  Gb  Rock.o [1]
+SetnRockModeEnterExit   0x00015203     0x6  Code  Gb  Rock.o [1]
+SholderTime             0x20002c40     0x4  Data  Gb  Valve.o [1]
+ShoulderSteps           0x20001388     0x4  Data  Gb  main.o [1]
+SigleLine_Check         0x00015763    0x12  Code  Gb  SingleLine.o [1]
+SignalBoard_10msInt     0x00014ced    0x1a  Code  Gb  signalUart_new.o [1]
+SignalBoard_GetMassageSignal
+                        0x00014cdb     0x6  Code  Gb  signalUart_new.o [1]
+SignalBoard_GetSwitchFlexSignal
+                        0x00014ce7     0x6  Code  Gb  signalUart_new.o [1]
+SignalBoard_GetSwitchSignal
+                        0x00014ce1     0x6  Code  Gb  signalUart_new.o [1]
+SignalBoard_Initial_Data
+                        0x00014bd5     0xa  Code  Gb  signalUart_new.o [1]
+SignalBoard_Initial_IO  0x00014bdf    0x70  Code  Gb  signalUart_new.o [1]
+SignalBoard_isOK        0x00014cd5     0x6  Code  Gb  signalUart_new.o [1]
+SingleLine_Analysis     0x00015775    0x92  Code  Gb  SingleLine.o [1]
+SingleLine_Check_Time   0x20001162     0x2  Data  Gb  SingleLine.o [1]
+SingleLine_Delay        0x0001563f    0x28  Code  Gb  SingleLine.o [1]
+SingleLine_GetSum       0x000156c5    0x1c  Code  Gb  SingleLine.o [1]
+SingleLine_Interruput   0x000155f5    0x4a  Code  Gb  SingleLine.o [1]
+SingleLine_Play         0x00015707    0x38  Code  Gb  SingleLine.o [1]
+SingleLine_Query        0x0001573f    0x24  Code  Gb  SingleLine.o [1]
+SingleLine_Rec          0x000154c9   0x100  Code  Gb  SingleLine.o [1]
+SingleLine_Rec::SendByt
+                        0x2000115b     0x1  Data  Lc  SingleLine.o [1]
+SingleLine_Rec_Char     0x0001546d    0x5c  Code  Gb  SingleLine.o [1]
+SingleLine_Rec_Char::data
+                        0x20001164     0x2  Data  Lc  SingleLine.o [1]
+SingleLine_Rec_init     0x00015449    0x24  Code  Gb  SingleLine.o [1]
+SingleLine_Receive_Send
+                        0x20001156     0x1  Data  Gb  SingleLine.o [1]
+SingleLine_Send_Mode    0x20001158     0x1  Data  Gb  SingleLine.o [1]
+SingleLine_Send_Start   0x00015667    0x5e  Code  Gb  SingleLine.o [1]
+SingleLine_Send_Time    0x20001160     0x2  Data  Gb  SingleLine.o [1]
+SingleLine_Set_Vol      0x000156e1    0x26  Code  Gb  SingleLine.o [1]
+SingleLine_Sound_ON     0x20001159     0x1  Data  Gb  SingleLine.o [1]
+SingleLine_Start_Mark   0x20001154     0x1  Data  Gb  SingleLine.o [1]
+SingleLine_Stop_Mark    0x20002ed9     0x1  Data  Gb  SingleLine.o [1]
+SingleLine_Test         0x2000115a     0x1  Data  Gb  SingleLine.o [1]
+SingleLine_TimeOut      0x000155c9    0x2c  Code  Gb  SingleLine.o [1]
+SingleLine_VOL          0x20001157     0x1  Data  Gb  SingleLine.o [1]
+SingleLine_rec_OK       0x2000115e     0x2  Data  Gb  SingleLine.o [1]
+SingleLinr_Send         0x00015809    0x8e  Code  Gb  SingleLine.o [1]
+SingleLinr_Send::Send_Mark
+                        0x2000115c     0x1  Data  Lc  SingleLine.o [1]
+SlideMotorControl       0x00011aa9    0x86  Code  Gb  SlideMotor.o [1]
+SlideMotorPower_Off     0x00011a31     0x4  Code  Gb  SlideMotor.o [1]
+SlideMotorPower_On      0x00011a05    0x2c  Code  Gb  SlideMotor.o [1]
+SlideMotor_10ms_Int     0x000119bd     0xe  Code  Gb  SlideMotor.o [1]
+SlideMotor_Backward     0x00011a5d    0x1c  Code  Gb  SlideMotor.o [1]
+SlideMotor_Break        0x000119cb    0x3a  Code  Gb  SlideMotor.o [1]
+SlideMotor_Forward      0x00011a41    0x1c  Code  Gb  SlideMotor.o [1]
+SlideMotor_Get_Fault    0x00011a79    0x12  Code  Gb  SlideMotor.o [1]
+SlideMotor_Get_Location
+                        0x00011a8b    0x1e  Code  Gb  SlideMotor.o [1]
+SlideMotor_Initial_IO   0x000118f5    0x88  Code  Gb  SlideMotor.o [1]
+SlideMotor_Reset        0x00011a35     0x6  Code  Gb  SlideMotor.o [1]
+SlideMotor_Reset_Cancel
+                        0x00011a3b     0x6  Code  Gb  SlideMotor.o [1]
+SlideMotor_Set_PWM      0x000119b5     0x8  Code  Gb  SlideMotor.o [1]
+SlideMotor_VoltageAdj   0x0001197d    0x38  Code  Gb  SlideMotor.o [1]
+SwtichSignal            0x20001111     0x1  Data  Lc  signalUart_new.o [1]
+SysTick_Config          0x0000f847    0x2e  Code  Lc  system.o [1]
+SysTick_Handler         0x0000fa13   0x174  Code  Gb  system.o [1]
+SysTick_Handler::Time_1s
+                        0x20002de4     0x2  Data  Lc  system.o [1]
+SysTick_Handler::by_Time100ms
+                        0x20002de0     0x1  Data  Lc  system.o [1]
+SysTick_Handler::by_Time10ms
+                        0x20002dde     0x1  Data  Lc  system.o [1]
+SysTick_Handler::by_Time200ms
+                        0x20002de1     0x1  Data  Lc  system.o [1]
+SysTick_Handler::by_Time50ms
+                        0x20002ddf     0x1  Data  Lc  system.o [1]
+SysTick_Handler::by_Time5ms
+                        0x20002ddd     0x1  Data  Lc  system.o [1]
+SystemCoreClock         0x20002eac     0x4  Data  Gb  system_efm32lg.o [1]
+SystemCoreClockGet      0x000158c9    0x22  Code  Gb  system_efm32lg.o [1]
+SystemCoreClockUpdate   0x0000f875     0x4  Code  Lc  system.o [1]
+SystemHFClockGet        0x000158eb    0x88  Code  Gb  system_efm32lg.o [1]
+SystemHFXOClock         0x20001168     0x4  Data  Lc  system_efm32lg.o [1]
+SystemHFXOClockGet      0x00015973     0x6  Code  Gb  system_efm32lg.o [1]
+SystemInit              0x00015979     0x2  Code  Gb  system_efm32lg.o [1]
+SystemLFRCOClockGet     0x0001597b     0x6  Code  Gb  system_efm32lg.o [1]
+SystemLFXOClock         0x2000116c     0x4  Data  Lc  system_efm32lg.o [1]
+SystemLFXOClockGet      0x00015987     0x6  Code  Gb  system_efm32lg.o [1]
+SystemULFRCOClockGet    0x00015981     0x6  Code  Gb  system_efm32lg.o [1]
+System_Delay_us         0x0000fb87    0x32  Code  Gb  system.o [1]
+System_Initial_IO       0x0000f901   0x112  Code  Gb  system.o [1]
+TIMER_CompareBufGet     0x00010fd9     0x8  Code  Lc  AxisMotor.o [1]
+TIMER_CompareBufGet     0x00011f55     0x8  Code  Lc  BackPad.o [1]
+TIMER_CompareBufGet     0x00014481     0x8  Code  Lc  Flex_Uart .o [1]
+TIMER_CompareBufGet     0x00011bbb     0x8  Code  Lc  LegMotor.o [1]
+TIMER_CompareBufSet     0x00010fd1     0x8  Code  Lc  AxisMotor.o [1]
+TIMER_CompareBufSet     0x00011f4d     0x8  Code  Lc  BackPad.o [1]
+TIMER_CompareBufSet     0x00014479     0x8  Code  Lc  Flex_Uart .o [1]
+TIMER_CompareBufSet     0x0000fe31     0x8  Code  Lc  KneadMotor.o [1]
+TIMER_CompareBufSet     0x00013425     0x8  Code  Lc  KnockMotor_8840.o [1]
+TIMER_CompareBufSet     0x000135ed     0x8  Code  Lc  LED_RGB.o [1]
+TIMER_CompareBufSet     0x00011bb3     0x8  Code  Lc  LegMotor.o [1]
+TIMER_CompareBufSet     0x000141bd     0x8  Code  Lc  Roller_Uart.o [1]
+TIMER_CompareBufSet     0x000118e9     0x8  Code  Lc  SlideMotor.o [1]
+TIMER_CompareBufSet     0x0001240d     0x8  Code  Lc  WalkMotor.o [1]
+TIMER_Init              0x00016711    0xbc  Code  Gb  em_timer.o [1]
+TIMER_InitCC            0x000167cd    0x7a  Code  Gb  em_timer.o [1]
+TIMER_IntDisable        0x000135f5     0xa  Code  Lc  LED_RGB.o [1]
+TIMER_TopSet            0x00010fe1     0x4  Code  Lc  AxisMotor.o [1]
+TIMER_TopSet            0x00011f5d     0x4  Code  Lc  BackPad.o [1]
+TIMER_TopSet            0x00014489     0x4  Code  Lc  Flex_Uart .o [1]
+TIMER_TopSet            0x0000fe39     0x4  Code  Lc  KneadMotor.o [1]
+TIMER_TopSet            0x0001342d     0x4  Code  Lc  KnockMotor_8840.o [1]
+TIMER_TopSet            0x000135ff     0x4  Code  Lc  LED_RGB.o [1]
+TIMER_TopSet            0x00011bc3     0x4  Code  Lc  LegMotor.o [1]
+TIMER_TopSet            0x000141c5     0x4  Code  Lc  Roller_Uart.o [1]
+TIMER_TopSet            0x000118f1     0x4  Code  Lc  SlideMotor.o [1]
+TIMER_TopSet            0x00012415     0x4  Code  Lc  WalkMotor.o [1]
+Timer_Counter           0x0001532b    0x54  Code  Gb  Timer.o [1]
+Timer_Counter_Clear     0x00015321     0xa  Code  Gb  Timer.o [1]
+Timer_Flag_100ms_Int    0x00015319     0x8  Code  Gb  Timer.o [1]
+Timer_Initial           0x000152fd    0x1c  Code  Gb  Timer.o [1]
+UART0_RX_IRQHandler     0x00013a97    0xe6  Code  Gb  UartLeg.o [1]
+UART0_RX_IRQHandler::chksum
+                        0x2000118d     0x1  Data  Lc  UartLeg.o [1]
+UART0_TX_IRQHandler     0x00013b99    0x52  Code  Gb  UartLeg.o [1]
+UART1_RX_IRQHandler     0x00014c4f    0x86  Code  Gb  signalUart_new.o [1]
+USART2_RX_IRQHandler    0x00013e09    0xc0  Code  Gb  BlueTooth.o [1]
+USART2_TX_IRQHandler    0x00013ec9    0x42  Code  Gb  BlueTooth.o [1]
+USART_BaudrateAsyncSet  0x00016941    0x5a  Code  Gb  em_usart.o [1]
+USART_BaudrateSyncSet   0x0001699b    0x28  Code  Gb  em_usart.o [1]
+USART_Enable            0x000169c3     0xe  Code  Gb  em_usart.o [1]
+USART_InitAsync         0x000169d1    0x48  Code  Gb  em_usart.o [1]
+USART_InitSync          0x00016a19    0x6c  Code  Gb  em_usart.o [1]
+USART_IntClear          0x00013d59     0x4  Code  Lc  BlueTooth.o [1]
+USART_IntClear          0x00014bc9     0x4  Code  Lc  signalUart_new.o [1]
+USART_IntClear          0x000139e1     0x4  Code  Lc  UartLeg.o [1]
+USART_IntDisable        0x00013d5d     0xa  Code  Lc  BlueTooth.o [1]
+USART_IntDisable        0x000139e5     0xa  Code  Lc  UartLeg.o [1]
+USART_IntEnable         0x00013d67     0x8  Code  Lc  BlueTooth.o [1]
+USART_IntEnable         0x00014bcd     0x8  Code  Lc  signalUart_new.o [1]
+USART_IntEnable         0x000139ef     0x8  Code  Lc  UartLeg.o [1]
+USART_IntGet            0x00013d6f     0x4  Code  Lc  BlueTooth.o [1]
+USART_Reset             0x00016a85    0x44  Code  Gb  em_usart.o [1]
+USART_Rx                0x00016ae9     0xc  Code  Gb  em_usart.o [1]
+USART_Tx                0x00016af5     0xa  Code  Gb  em_usart.o [1]
+UartLeg_10msInt         0x00013c45    0x1a  Code  Gb  UartLeg.o [1]
+UartLeg_3DMessageCopyData
+                        0x00013b7d    0x10  Code  Gb  UartLeg.o [1]
+UartLeg_CLR_TX_EN       0x00013a91     0x6  Code  Gb  UartLeg.o [1]
+UartLeg_ClearVoiceRXState
+                        0x00013cc9     0x8  Code  Gb  UartLeg.o [1]
+UartLeg_Clr_3DMessageStatus
+                        0x00013c37     0x8  Code  Gb  UartLeg.o [1]
+UartLeg_Get3DMassageSignal
+                        0x00013b8d     0x6  Code  Gb  UartLeg.o [1]
+UartLeg_Get3DMessage_RXStatus
+                        0x00013c3f     0x6  Code  Gb  UartLeg.o [1]
+UartLeg_Get3DPluse      0x00013b93     0x6  Code  Gb  UartLeg.o [1]
+UartLeg_GetVoiceKey     0x00013cbd     0x6  Code  Gb  UartLeg.o [1]
+UartLeg_GetVoiceRXState
+                        0x00013cc3     0x6  Code  Gb  UartLeg.o [1]
+UartLeg_Initial_IO      0x000139f7    0x94  Code  Gb  UartLeg.o [1]
+UartLeg_SET_TX_EN       0x00013a8b     0x6  Code  Gb  UartLeg.o [1]
+UartLeg_SetVoiceKey     0x00013cd1     0x6  Code  Gb  UartLeg.o [1]
+UartLeg_Transmit_Packet
+                        0x00013c23    0x14  Code  Gb  UartLeg.o [1]
+VCMP_Enable             0x0000f8c9     0xe  Code  Lc  system.o [1]
+VCMP_IRQHandler         0x0000fbf1    0x26  Code  Gb  system.o [1]
+VCMP_Init               0x00016519    0xd2  Code  Gb  em_vcmp.o [1]
+VCMP_IntClear           0x00016513     0x6  Code  Lc  em_vcmp.o [1]
+VCMP_IntClear           0x0000f8f1     0x6  Code  Lc  system.o [1]
+VCMP_IntEnable          0x0000f8f7     0xa  Code  Lc  system.o [1]
+VCMP_LowPowerRefSet     0x000165eb    0x18  Code  Gb  em_vcmp.o [1]
+VCMP_Ready              0x00016501    0x12  Code  Lc  em_vcmp.o [1]
+VCMP_TriggerSet         0x00016603     0xe  Code  Gb  em_vcmp.o [1]
+VCMP_VoltageToLevel     0x0000f8d7    0x1a  Code  Lc  system.o [1]
+ValveTime               0x20002dda     0x1  Data  Gb  system.o [1]
+ValveTimeFlag           0x20002dd8     0x1  Data  Gb  system.o [1]
+Valve_10ms_Int          0x00010355    0x18  Code  Gb  Valve.o [1]
+Valve_Airpump_Ctrl      0x0001077f    0x52  Code  Gb  Valve.o [1]
+Valve_Alone             0x00010cad    0x32  Code  Gb  Valve.o [1]
+Valve_BodyUpAirPumpACPowerOff
+                        0x00010c7b     0x8  Code  Gb  Valve.o [1]
+Valve_BodyUpAirPumpACPowerOn
+                        0x00010c73     0x8  Code  Gb  Valve.o [1]
+Valve_CloseAll          0x00010677    0x1a  Code  Gb  Valve.o [1]
+Valve_Control           0x000107d1   0x20e  Code  Gb  Valve.o [1]
+Valve_FootRollerProce   0x000109e9   0x20e  Code  Gb  Valve.o [1]
+Valve_GetAirBagStrength
+                        0x00010c53     0x6  Code  Gb  Valve.o [1]
+Valve_GetRollerLevel    0x00010c2d    0x26  Code  Gb  Valve.o [1]
+Valve_Initial_Data      0x00010349     0xc  Code  Gb  Valve.o [1]
+Valve_Initial_IO        0x000102b5    0x7c  Code  Gb  Valve.o [1]
+Valve_LegFootAirPumpACPowerOff
+                        0x00010c6b     0x8  Code  Gb  Valve.o [1]
+Valve_LegFootAirPumpACPowerOn
+                        0x00010c63     0x8  Code  Gb  Valve.o [1]
+Valve_Level_Decrease    0x0001072d    0x20  Code  Gb  Valve.o [1]
+Valve_Level_Increase    0x0001074d    0x2a  Code  Gb  Valve.o [1]
+Valve_OzonOff           0x00010ca1     0x2  Code  Gb  Valve.o [1]
+Valve_OzonOn            0x00010c9f     0x2  Code  Gb  Valve.o [1]
+Valve_RollerIsAuto      0x00010ca3     0x6  Code  Gb  Valve.o [1]
+Valve_Send_Data         0x0001037f    0x5c  Code  Gb  Valve.o [1]
+Valve_SetAirBagStrength
+                        0x00010c5d     0x6  Code  Gb  Valve.o [1]
+Valve_SetBackMode       0x00010c91     0xe  Code  Gb  Valve.o [1]
+Valve_SetEnableSholder  0x00010777     0x8  Code  Gb  Valve.o [1]
+Valve_SetRollerPWM      0x00010c01    0x2c  Code  Gb  Valve.o [1]
+Valve_SetStretchCharge::step
+                        0x20002c48     0x4  Data  Lc  Valve.o [1]
+Valve_SetStretchChargeATOUT2::step
+                        0x20002c58     0x4  Data  Lc  Valve.o [1]
+Valve_SetStretchChargeATOUT::step
+                        0x20002c54     0x4  Data  Lc  Valve.o [1]
+Valve_SetStretchChargeATOUTFootHeelOFF::step
+                        0x20002c5c     0x4  Data  Lc  Valve.o [1]
+Valve_SetStretchChargeSTEEL
+                        0x00010e53    0x98  Code  Gb  Valve.o [1]
+Valve_SetStretchChargeSTEEL::step
+                        0x20002c64     0x4  Data  Lc  Valve.o [1]
+Valve_SetStretchCharge_ARM
+                        0x00010d1b    0xa4  Code  Gb  Valve.o [1]
+Valve_SetStretchCharge_ARM::step
+                        0x20002c60     0x4  Data  Lc  Valve.o [1]
+Valve_SetStretchCharge_FOOT
+                        0x00010cdf    0x3c  Code  Gb  Valve.o [1]
+Valve_SetStretchCharge_FOOT_LEG_SHOULD
+                        0x00010dfb    0x58  Code  Gb  Valve.o [1]
+Valve_SetStretchCharge_FOOT_THIGH
+                        0x00010dbf    0x3c  Code  Gb  Valve.o [1]
+Valve_SetStretchChargedown::step
+                        0x20002c4c     0x4  Data  Lc  Valve.o [1]
+Valve_SetStretchChargepre::step
+                        0x20002c50     0x4  Data  Lc  Valve.o [1]
+Valve_SetStretchUp      0x00010691    0x9a  Code  Gb  Valve.o [1]
+Valve_SetStretchUp::step
+                        0x20002c44     0x4  Data  Lc  Valve.o [1]
+Valve_StretchControlProce
+                        0x00006041   0x4ac  Code  Gb  main.o [1]
+Valve_Test_Set_Data     0x00010c83     0xe  Code  Gb  Valve.o [1]
+VoiceUart_PowerOff      0x00014d31     0x6  Code  Gb  VoiceUart.o [1]
+VoiceUart_SetMusicStatus
+                        0x00014d37    0x3a  Code  Gb  VoiceUart.o [1]
+Voice_1msInt            0x0000a31b    0x1a  Code  Gb  main.o [1]
+Voice_DownTime          0x20002e24     0x4  Data  Gb  main.o [1]
+Voice_UpTime            0x20002e20     0x4  Data  Gb  main.o [1]
+WDOG_Feed               0x0001661d     0xe  Code  Gb  em_wdog.o [1]
+WaistHeat_100ms_Int     0x000135b9     0xa  Code  Gb  WaistHot.o [1]
+WaistHeat_Initial_IO    0x000135ad     0xc  Code  Gb  WaistHot.o [1]
+WaistHeat_Off           0x000135d3     0x6  Code  Gb  WaistHot.o [1]
+WaistHeat_On            0x000135cd     0x6  Code  Gb  WaistHot.o [1]
+WalkMotorControl        0x000038f1   0x90a  Code  Gb  main.o [1]
+WalkMotor_10msInt       0x00012c0b    0x1a  Code  Gb  WalkMotor.o [1]
+WalkMotor_Break         0x00012605    0x12  Code  Lc  WalkMotor.o [1]
+WalkMotor_Control       0x00012639   0x5d2  Code  Gb  WalkMotor.o [1]
+WalkMotor_Control::curPosition
+                        0x20002d52     0x2  Data  Lc  WalkMotor.o [1]
+WalkMotor_Control::init_flag
+                        0x20002d4d     0x1  Data  Lc  WalkMotor.o [1]
+WalkMotor_Control::walkStep
+                        0x20002d4e     0x1  Data  Lc  WalkMotor.o [1]
+WalkMotor_Down          0x000125e9    0x1c  Code  Lc  WalkMotor.o [1]
+WalkMotor_GetDirection  0x000125bb    0x12  Code  Gb  WalkMotor.o [1]
+WalkMotor_Get_Fault     0x00012623    0x12  Code  Gb  WalkMotor.o [1]
+WalkMotor_Initial_IO    0x00012419    0x8e  Code  Gb  WalkMotor.o [1]
+WalkMotor_Reset         0x00012617     0x6  Code  Lc  WalkMotor.o [1]
+WalkMotor_Reset_Cancel  0x0001261d     0x6  Code  Lc  WalkMotor.o [1]
+WalkMotor_Set_Pwm_Data  0x000124df    0x3c  Code  Gb  WalkMotor.o [1]
+WalkMotor_Up            0x000125cd    0x1c  Code  Lc  WalkMotor.o [1]
+WalkMotor_VoltageAdj    0x000124a7    0x38  Code  Gb  WalkMotor.o [1]
+WalkPower_Off           0x000125b7     0x4  Code  Gb  WalkMotor.o [1]
+WalkPower_On            0x0001251d    0x9a  Code  Lc  WalkMotor.o [1]
+WalkTime                0x20002d54     0x4  Data  Gb  WalkMotor.o [1]
+WalkTimeFlag            0x20002d41     0x1  Data  Gb  WalkMotor.o [1]
+Walk_CheckPoint         0x20002c71     0x1  Data  Gb  main.o [1]
+Walk_Motor_State        0x20002d40     0x1  Data  Gb  WalkMotor.o [1]
+Walk_PWM                0x20002d58     0x4  Data  Gb  WalkMotor.o [1]
+Walk_StopFlag           0x20002d43     0x1  Data  Gb  WalkMotor.o [1]
+WasiHeat_State          0x000135d9    0x14  Code  Gb  WaistHot.o [1]
+ZeroMotor_SlowBreak     0x000121f5    0x22  Code  Gb  BackPad.o [1]
+Zero_Grade              0x00006e9b    0x2a  Code  Gb  main.o [1]
+Zero_mark               0x200010a4     0x1  Data  Lc  main.o [1]
+_3DBackSwitch           0x20002ecb     0x1  Data  Gb  Input.o [1]
+_3DFunction0            0x0001b4c4   0x204  Data  Gb  main.o [1]
+_3DFunction1            0x0001b6c8   0x2ac  Data  Gb  main.o [1]
+_3DFunction2            0x0001b974   0x270  Data  Gb  main.o [1]
+_3DMotorControl         0x00002681   0x274  Code  Gb  main.o [1]
+_3D_BackCount           0x20002db8     0x4  Data  Lc  problem.o [1]
+_3D_ForwardCount        0x20002db4     0x4  Data  Lc  problem.o [1]
+_3D_MaxOk               0x20002d25     0x1  Data  Gb  AxisMotor.o [1]
+_3D_Max_Ok              0x20002d28     0x1  Data  Gb  AxisMotor.o [1]
+_3D_Min_Ok              0x20002d27     0x1  Data  Gb  AxisMotor.o [1]
+_3D_PosStop_Time        0x20002dd9     0x1  Data  Gb  system.o [1]
+_3D_PosStop_TimeFlag    0x20002d29     0x1  Data  Gb  AxisMotor.o [1]
+_3D_PositionErrorCount  0x20002d34     0x4  Data  Gb  AxisMotor.o [1]
+_3D_Press_Times         0x20002d26     0x1  Data  Gb  AxisMotor.o [1]
+_3D_Protect             0x00002641    0x3e  Code  Gb  main.o [1]
+_3D_StopFlag            0x20002d42     0x1  Data  Gb  WalkMotor.o [1]
+_3D_step                0x20002d24     0x1  Data  Gb  AxisMotor.o [1]
+_3DfrontSwitch          0x20002eca     0x1  Data  Gb  Input.o [1]
+_3d_step                0x20002d2a     0x1  Data  Gb  AxisMotor.o [1]
+__Vectors               0x00002000           --   Gb  startup_efm32lg.o [1]
+__Vectors_End           0x000020dc          Data  Gb  startup_efm32lg.o [1]
+__Vectors_Size {Abs}    0x000000dc           --   Gb  startup_efm32lg.o [1]
+__aeabi_f2uiz           0x00015b61          Code  Gb  FltToU32.o [4]
+__aeabi_fadd            0x000159e1          Code  Gb  FltAdd.o [4]
+__aeabi_fdiv            0x00015a65          Code  Gb  FltDiv.o [4]
+__aeabi_memset          0x00015389          Code  Gb  ABImemset.o [5]
+__aeabi_memset4         0x00014df1          Code  Gb  ABImemset48.o [5]
+__aeabi_memset8         0x00014df1          Code  Gb  ABImemset48.o [5]
+__checksum              0x0001dffc     0x4  Data  Gb  Place holder __checksum
+__checksum_begin {Abs}  0x00002000          Data  Gb  command line/config [2]
+__checksum_end {Abs}    0x0001dfff          Data  Gb  command line/config [2]
+__cmain                 0x0001d0b1          Code  Gb  cmain.o [5]
+__exit                  0x0001d0e1    0x14  Code  Gb  exit.o [6]
+__iar_Memset            0x00015389          Code  Gb  ABImemset.o [5]
+__iar_Memset4_word      0x00014df9          Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word      0x00014df9          Code  Gb  ABImemset48.o [5]
+__iar_Memset_word       0x00015391          Code  Gb  ABImemset.o [5]
+__iar_close_ttio        0x0001d031    0x2e  Code  Gb  iarttio.o [6]
+__iar_data_init3        0x0001d069    0x28  Code  Gb  data_init.o [5]
+__iar_fadd              0x000159f1          Code  Gb  FltAdd.o [4]
+__iar_fsub              0x000170ad          Code  Gb  FltSub.o [4]
+__iar_fsubStart         0x000170bd          Code  Gb  FltSub.o [4]
+__iar_lookup_ttioh      0x0001d061     0x8  Code  Gb  XShttio.o [3]
+__iar_lz77_init_single3
+                        0x0001cf79    0x78  Code  Gb  lz77_init_single.o [5]
+__iar_program_start     0x0001d121          Code  Gb  cstartup_M.o [5]
+__iar_ttio_handles      0x200011e4     0x8  Data  Lc  XShttio.o [3]
+__iar_unaligned___aeabi_memcpy
+                        0x00016489          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x000164a9          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x000164a9          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_zero_init3        0x0001cff1    0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0001d0cb     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00002000          Data  Gb  startup_efm32lg.o [1]
+__vector_table_0x1c     0x0000201c          Data  Gb  startup_efm32lg.o [1]
+_call_main              0x0001d0bd          Code  Gb  cmain.o [5]
+_exit                   0x0001d0d5          Code  Gb  cexit.o [5]
+_main                   0x0001d0c7          Code  Gb  cmain.o [5]
+arm_100ms_time          0x20001104     0x4  Data  Gb  main.o [1]
+arm_step                0x20002c84     0x1  Data  Gb  main.o [1]
+b100ms                  0x20002dfe     0x1  Data  Lc  VoiceUart.o [1]
+b100msFalg              0x20002ec5     0x1  Data  Lc  Flex_Uart .o [1]
+b10msFlexinFalg         0x20002ec4     0x1  Data  Lc  Flex_Uart .o [1]
+b3DOverTime             0x20002db1     0x1  Data  Gb  problem.o [1]
+b3D_PositionError       0x20002d2d     0x1  Data  Gb  AxisMotor.o [1]
+b485Send                0x20002edb     0x1  Data  Gb  UartLeg.o [1]
+b5msFlag                0x20002ecc     0x1  Data  Gb  Input.o [1]
+bADC_Enable             0x20002d23     0x1  Data  Gb  ADC_scan.o [1]
+bAUTO1AirEnable         0x20002e51     0x1  Data  Gb  main.o [1]
+bArmProtect             0x20002d21     0x1  Data  Gb  main.o [1]
+bAutoRoller             0x20002c29     0x1  Data  Lc  Valve.o [1]
+bAxisUpdate             0x200010a6     0x1  Data  Gb  main.o [1]
+bAxisUpdate_Manual_Waitting_Timef
+                        0x20002cbd     0x1  Data  Gb  main.o [1]
+bAxisUpdate_Program_Waitting_Timef
+                        0x20002cbe     0x1  Data  Gb  main.o [1]
+bBackMotorFlag          0x20001004     0x1  Data  Lc  BackPad.o [1]
+bBackauto               0x20002c2c     0x1  Data  Gb  Valve.o [1]
+bBlueToothRXOK          0x20001025     0x1  Data  Gb  BlueTooth.o [1]
+bCloud_Xmodem_Start_Rec
+                        0x20002edc     0x1  Data  Lc  xmodem.o [1]
+bDemoStretch            0x20001098     0x1  Data  Gb  main.o [1]
+bDisableCheckCurrent    0x20002d2b     0x1  Data  Gb  AxisMotor.o [1]
+bEnableCheckCurrent     0x20002d2c     0x1  Data  Gb  AxisMotor.o [1]
+bFalg                   0x20002e1b     0x1  Data  Lc  Flex_Uart .o [1]
+bFlag                   0x20002e34     0x1  Data  Gb  SlideMotor.o [1]
+bFlag10ms               0x20002d5c     0x1  Data  Gb  LED_RGB.o [1]
+bFlag10ms               0x20002db0     0x1  Data  Lc  problem.o [1]
+bFlag1ms                0x20002ddb     0x1  Data  Gb  system.o [1]
+bFlexOverTime           0x20002db2     0x1  Data  Gb  problem.o [1]
+bGet485Send             0x00013beb     0x6  Code  Gb  UartLeg.o [1]
+bGetDIY_keyflag         0x20002c81     0x1  Data  Gb  main.o [1]
+bHaveMan                0x20002e50     0x1  Data  Gb  main.o [1]
+bInputReady             0x20002ec9     0x1  Data  Gb  Input.o [1]
+bKneadMax               0x20002ed0     0x1  Data  Gb  Input.o [1]
+bKneadMid               0x20002ecf     0x1  Data  Gb  Input.o [1]
+bKneadMin               0x20002ece     0x1  Data  Gb  Input.o [1]
+bKnockslow_10MS_Int     0x20002e40     0x1  Data  Gb  KnockMotor_8840.o [1]
+bLanguageFlag           0x2000109f     0x1  Data  Gb  main.o [1]
+bLegMotorFlag           0x20002d88     0x1  Data  Lc  LegMotor.o [1]
+bManRollerZero          0x20002c28     0x1  Data  Lc  Valve.o [1]
+bMassageSignalOK        0x20001113     0x1  Data  Lc  signalUart_new.o [1]
+bMasterSendLegPacket    0x20002ea5     0x1  Data  Gb  main.o [1]
+bMusicOn                0x20002dfd     0x1  Data  Lc  VoiceUart.o [1]
+bPM25OK                 0x20002dfc     0x1  Data  Lc  VoiceUart.o [1]
+bPreWalkPulseCount      0x20002ed2     0x1  Data  Gb  Input.o [1]
+bRXOK                   0x20001080     0x1  Data  Lc  HandUart_New.o [1]
+bRXOK_3D                0x2000118a     0x1  Data  Gb  UartLeg.o [1]
+bRXOK_Voice             0x2000118b     0x1  Data  Gb  UartLeg.o [1]
+bRestSleepStatus        0x200010a7     0x1  Data  Gb  main.o [1]
+bRockEnable             0x20002e58     0x1  Data  Gb  Rock.o [1]
+bRollerEnable           0x200010a1     0x1  Data  Gb  main.o [1]
+bRollerFlag             0x20002c2b     0x1  Data  Lc  Valve.o [1]
+bSecond                 0x200015a5     0x1  Data  Lc  Data_Cul.o [1]
+bSet485Send             0x00013bf1     0x6  Code  Gb  UartLeg.o [1]
+bSholderEnable          0x20002eb0     0x4  Data  Gb  Valve.o [1]
+bStart                  0x200015a4     0x1  Data  Lc  Data_Cul.o [1]
+bTapping                0x2000109e     0x1  Data  Gb  main.o [1]
+bTapping_old            0x20002cb8     0x1  Data  Gb  main.o [1]
+bTimeoverRestSleepStatus
+                        0x200010a8     0x1  Data  Gb  main.o [1]
+bUpdataADC              0x20002d74     0x1  Data  Gb  ADC_scan.o [1]
+bUpdataPosition         0x20001344     0x1  Data  Gb  AxisMotor.o [1]
+bValveFlag              0x20002c2a     0x1  Data  Lc  Valve.o [1]
+bVoice_WakeupFlag       0x20002e1c     0x1  Data  Gb  main.o [1]
+bWalkChange             0x20002ec8     0x1  Data  Gb  Input.o [1]
+bWalkPWMFlag            0x20002ed7     0x1  Data  Gb  main.o [1]
+bWalkPulseCount         0x20002ed1     0x1  Data  Gb  Input.o [1]
+bWalkSlowFlag           0x20002cb9     0x1  Data  Gb  main.o [1]
+bWalkSwitchFail         0x20002db3     0x1  Data  Gb  problem.o [1]
+bZero_ShowFlag          0x200010a5     0x1  Data  Lc  main.o [1]
+b_LED_Init              0x20002d60     0x1  Data  Gb  LED_RGB.o [1]
+bkneadStep              0x20002c76     0x1  Data  Gb  main.o [1]
+bkneadStopTime          0x20002c88     0x4  Data  Gb  main.o [1]
+bkneadStopTimeFlag      0x20002c70     0x1  Data  Gb  main.o [1]
+bkneadTime              0x20002c8c     0x4  Data  Gb  main.o [1]
+bkneadTimeFlag          0x20002c72     0x1  Data  Gb  main.o [1]
+breakDown_10MS_Int      0x20001007     0x1  Data  Gb  BackPad.o [1]
+breset                  0x20002dec     0x1  Data  Gb  KneadMotor.o [1]
+by_Blue_PWM             0x20002d5f     0x1  Data  Gb  LED_RGB.o [1]
+by_Button               0x20001026     0x1  Data  Gb  BlueTooth.o [1]
+by_Green_PWM            0x20002d5e     0x1  Data  Gb  LED_RGB.o [1]
+by_Key                  0x20001081     0x1  Data  Lc  HandUart_New.o [1]
+by_Key1                 0x20001082     0x1  Data  Lc  HandUart_New.o [1]
+by_KneadPosition        0x20002ecd     0x1  Data  Gb  Input.o [1]
+by_Red_PWM              0x20002d5d     0x1  Data  Gb  LED_RGB.o [1]
+by_Timer_Flag           0x20002eda     0x1  Data  Lc  Timer.o [1]
+by_Voice_Key            0x2000118c     0x1  Data  Lc  UartLeg.o [1]
+by_moni_cmd_tm          0x200015bc     0x4  Data  Gb  main.o [1]
+by_moni_cmd_tm_en       0x20001394     0x4  Data  Gb  main.o [1]
+cb                      0x20002b8c    0x90  Data  Gb  DMA_Ctrl.o [1]
+checkover1              0x20002d46     0x1  Data  Gb  WalkMotor.o [1]
+checkover2              0x20002d47     0x1  Data  Gb  WalkMotor.o [1]
+close_auto_back_down    0x000044b9    0x28  Code  Gb  main.o [1]
+cmuStatus               0x20002ebc     0x2  Data  Lc  em_emu.o [1]
+count_25ms              0x20002ddc     0x1  Data  Gb  system.o [1]
+ctrlType                0x20001084     0x4  Data  Gb  HandUart_New.o [1]
+currentBackPadMotorState
+                        0x2000100a     0x1  Data  Gb  BackPad.o [1]
+currentSpeed            0x20001018     0x4  Data  Gb  BackPad.o [1]
+displayPWM              0x20002e64     0x4  Data  Gb  Roller_Uart.o [1]
+dmaControlBlock         0x20002900   0x180  Data  Gb  DMA_Ctrl.o [1]
+downWalkRun             0x20002c75     0x1  Data  Gb  main.o [1]
+downflag                0x20002d49     0x1  Data  Gb  WalkMotor.o [1]
+downflag2               0x20002d4b     0x1  Data  Gb  WalkMotor.o [1]
+engineerData1           0x20002cf8     0x4  Data  Gb  main.o [1]
+engineerData1old        0x20002cdc     0x4  Data  Gb  main.o [1]
+engineerData2           0x20002cfc     0x4  Data  Gb  main.o [1]
+engineerData2old        0x20002ce0     0x4  Data  Gb  main.o [1]
+engineerData3           0x20002ce8     0x4  Data  Gb  main.o [1]
+engineerData4           0x20002cec     0x4  Data  Gb  main.o [1]
+engineerData5           0x20002ce4     0x4  Data  Gb  main.o [1]
+engineeringTime_10msFlag
+                        0x20002cd8     0x1  Data  Gb  main.o [1]
+engineering_stop_all    0x0000864d     0x2  Code  Gb  main.o [1]
+err                     0x20002df4     0x4  Data  Lc  KneadMotor.o [1]
+errorCount              0x20001114     0x1  Data  Lc  signalUart_new.o [1]
+errorCount              0x20001188     0x1  Data  Lc  UartLeg.o [1]
+exit                    0x0001d0cf     0x4  Code  Gb  exit.o [3]
+fatul                   0x20001010     0x4  Data  Gb  BackPad.o [1]
+flexInCount             0x20002dc0     0x4  Data  Lc  problem.o [1]
+flexOutCount            0x20002dbc     0x4  Data  Lc  problem.o [1]
+handrail_flag           0x2000109a     0x1  Data  Gb  main.o [1]
+heatCounter             0x20002eb8     0x4  Data  Gb  WaistHot.o [1]
+isFIRSTZeroPosition     0x000070c1    0x42  Code  Gb  main.o [1]
+isRocking               0x20001009     0x1  Data  Gb  BackPad.o [1]
+isZeroPosition          0x00007103    0x46  Code  Gb  main.o [1]
+kneadCounter            0x20002ea0     0x4  Data  Lc  KneadMotor.o [1]
+letimerInit             0x000158b4     0xc  Data  Gb  SingleLine.o [1]
+main                    0x0000f74d    0x8a  Code  Gb  main.o [1]
+main_10ms_int           0x0000a307    0x14  Code  Gb  main.o [1]
+main_200ms_int          0x0000a2d9    0x16  Code  Gb  main.o [1]
+main_25ms_int           0x0000a2fd     0xa  Code  Gb  main.o [1]
+main_50ms_int           0x0000a2ef     0xe  Code  Gb  main.o [1]
+main_GetKneadPosition   0x00002ab5    0x84  Code  Gb  main.o [1]
+main_GetKneadPosition::nLastKneadPosition
+                        0x20002ed8     0x1  Data  Lc  main.o [1]
+massage3DPluse          0x20002e19     0x1  Data  Lc  UartLeg.o [1]
+massage3DSignal         0x20002e18     0x1  Data  Lc  UartLeg.o [1]
+massage3D_Speed         0x20002e1a     0x1  Data  Lc  UartLeg.o [1]
+massageSignal           0x20001110     0x1  Data  Lc  signalUart_new.o [1]
+massage_step_tm         0x200015b8     0x4  Data  Gb  main.o [1]
+massage_step_tm_flag    0x20001470     0x4  Data  Gb  main.o [1]
+memcpy                  0x00016aff     0xc  Code  Gb  memcpy.o [3]
+motorBreakTime          0x20002df8     0x4  Data  Lc  KneadMotor.o [1]
+motorBreakTime          0x20002e4c     0x4  Data  Lc  LegMotor.o [1]
+motorBreakTime          0x20002e3c     0x4  Data  Lc  SlideMotor.o [1]
+motorStatus             0x20002df0     0x4  Data  Lc  KneadMotor.o [1]
+motorStatus             0x20002e48     0x4  Data  Lc  LegMotor.o [1]
+motorStatus             0x20002e38     0x4  Data  Lc  SlideMotor.o [1]
+musicOffCounter         0x20002e04     0x4  Data  Lc  VoiceUart.o [1]
+musicOnCounter          0x20002e00     0x4  Data  Lc  VoiceUart.o [1]
+n3DMotorCurrent         0x200019c0   0xf18  Data  Gb  AxisMotor.o [1]
+n3DMotorRunCounter      0x20001421     0x1  Data  Gb  main.o [1]
+n3D_MotorControlPosition
+                        0x20001425     0x1  Data  Gb  main.o [1]
+n3D_MotorControlSpeed   0x20001426     0x1  Data  Gb  main.o [1]
+n3D_MotorControlState   0x20001424     0x1  Data  Gb  main.o [1]
+n3D_MotorControlStopTime
+                        0x20001427     0x1  Data  Gb  main.o [1]
+n3Dpointturn            0x2000142b     0x1  Data  Gb  main.o [1]
+n485_2ms                0x00006f1f     0xa  Code  Gb  main.o [1]
+nArmProtect             0x20002d22     0x1  Data  Gb  main.o [1]
+nAvrADResult0           0x20002c98     0x4  Data  Gb  main.o [1]
+nAxisLoss               0x20002d2e     0x1  Data  Gb  AxisMotor.o [1]
+nAxisUpdateCounter      0x200010a3     0x1  Data  Gb  main.o [1]
+nAxisUpdate_Manual_Waitting_Time_cnt
+                        0x20002cbf     0x1  Data  Gb  main.o [1]
+nAxisUpdate_Program_Waitting_Time_cnt
+                        0x20002cc0     0x1  Data  Gb  main.o [1]
+nBackMainRunMode        0x20001349     0x1  Data  Gb  main.o [1]
+nBackSubRunMode         0x2000134a     0x1  Data  Gb  main.o [1]
+nBuzzerMode             0x20001348     0x1  Data  Gb  main.o [1]
+nChairRunState          0x20001417     0x1  Data  Gb  MassageStatus.o [1]
+nChairRunState_Pre      0x20001418     0x1  Data  Gb  main.o [1]
+nCur3D_MotorStopCounter
+                        0x2000141f     0x1  Data  Gb  main.o [1]
+nCurActionStep          0x2000137c     0x4  Data  Gb  main.o [1]
+nCurActionStepCounter   0x2000141d     0x1  Data  Gb  main.o [1]
+nCurActionStepreturn    0x20001380     0x4  Data  Gb  main.o [1]
+nCurAxisLocate          0x20002ec0     0x2  Data  Gb  Input.o [1]
+nCurBackLocate          0x20002e98     0x4  Data  Gb  Input.o [1]
+nCurKneadKnockSpeed     0x2000134c     0x1  Data  Gb  main.o [1]
+nCurKneadMotorCycles    0x200014c2     0x1  Data  Gb  main.o [1]
+nCurKneadWidth          0x20002c7f     0x1  Data  Gb  main.o [1]
+nCurKnockRunStopCounter
+                        0x2000141e     0x1  Data  Gb  main.o [1]
+nCurShoulderAdjustCounter
+                        0x20001420     0x1  Data  Gb  main.o [1]
+nCurSubFunction         0x2000134b     0x1  Data  Gb  main.o [1]
+nCurWalkLocate          0x20002ebe     0x2  Data  Gb  Input.o [1]
+nDisplayAxisStrength    0x20002cbc     0x1  Data  Gb  main.o [1]
+nFinalAxisStrength      0x20002cbb     0x1  Data  Gb  main.o [1]
+nFinalKneadMotorState   0x20002c80     0x1  Data  Gb  main.o [1]
+nFinalWalkMotorLocate   0x20001372     0x2  Data  Gb  main.o [1]
+nFlexMotorRunStateOld   0x2000107c     0x4  Data  Lc  Flex_Uart .o [1]
+nFlex_In_TimeStop       0x20002e6c     0x4  Data  Lc  Flex_Uart .o [1]
+nFlex_StretchIn_TimeStop
+                        0x20002e70     0x4  Data  Lc  Flex_Uart .o [1]
+nHeatStreng             0x2000141a     0x1  Data  Gb  main.o [1]
+nHotTime                0x20001419     0x1  Data  Gb  main.o [1]
+nKeyAirBagLocate        0x2000134f     0x1  Data  Gb  main.o [1]
+nKeyAirBagStrength      0x200015b0     0x1  Data  Lc  Valve.o [1]
+nKeyAxisStrength        0x200010a2     0x1  Data  Gb  main.o [1]
+nKeyBackLocate          0x2000134e     0x1  Data  Gb  main.o [1]
+nKeyKneadKnockSpeed     0x20001351     0x1  Data  Gb  main.o [1]
+nKeyKneadWidth          0x20001350     0x1  Data  Gb  main.o [1]
+nKeySeatVibrateStrength
+                        0x20001498     0x1  Data  Gb  main.o [1]
+nKneadMotorControlParam1
+                        0x20001353     0x1  Data  Gb  main.o [1]
+nKneadMotorControlParam2
+                        0x20001423     0x1  Data  Gb  main.o [1]
+nKneadTurn              0x2000109c     0x1  Data  Gb  main.o [1]
+nKnockMotorControlParam1
+                        0x20001428     0x1  Data  Gb  main.o [1]
+nKnockMotorControlParam2
+                        0x20001429     0x1  Data  Gb  main.o [1]
+nKnockMotorControlParam3
+                        0x2000142a     0x1  Data  Gb  main.o [1]
+nLegAngle               0x20002cf0     0x2  Data  Gb  main.o [1]
+nM_BackAngle            0x200010f4     0x4  Data  Gb  main.o [1]
+nM_LegAngle             0x200010f8     0x4  Data  Gb  main.o [1]
+nMaunalSubMode          0x20001352     0x1  Data  Gb  main.o [1]
+nMaxActionStep          0x20001384     0x4  Data  Gb  main.o [1]
+nMusicKnockPWM          0x20002c9c     0x4  Data  Gb  main.o [1]
+nOutArmBufferCount      0x20001414     0x1  Data  Gb  main.o [1]
+nOutBufferCount         0x20001499     0x1  Data  Gb  main.o [1]
+nPartPointMemory        0x200010aa     0x2  Data  Gb  main.o [1]
+nPartialBottom          0x20001378     0x2  Data  Gb  main.o [1]
+nPartialTop             0x20001376     0x2  Data  Gb  main.o [1]
+nPreKneadTurn           0x20002ed6     0x1  Data  Gb  main.o [1]
+nRockInterrupTime       0x20002e5a     0x2  Data  Gb  Rock.o [1]
+nRockModeEnterEnable    0x200014b0     0x1  Data  Gb  main.o [1]
+nRockModeEnterExit      0x20001415     0x1  Data  Gb  Rock.o [1]
+nRoller3sCnt            0x20002c38     0x4  Data  Gb  Valve.o [1]
+nRollerPWM              0x2000141c     0x1  Data  Gb  main.o [1]
+nRollercnt              0x20002e60     0x4  Data  Gb  Roller_Uart.o [1]
+nSetAxisStrength        0x20002cba     0x1  Data  Gb  main.o [1]
+nSet_StretchStopTime    0x00014677     0x8  Code  Gb  Flex_Uart .o [1]
+nSet_StretchTime        0x00014b4f     0x8  Code  Gb  Flex_Uart .o [1]
+nSettleMode             0x2000141b     0x1  Data  Gb  main.o [1]
+nShoulderPosition       0x2000136c     0x2  Data  Gb  main.o [1]
+nShoulderPositionBottom
+                        0x20001370     0x2  Data  Gb  main.o [1]
+nShoulderPositionTop    0x2000136e     0x2  Data  Gb  main.o [1]
+nStartActionStep        0x200014c1     0x1  Data  Gb  main.o [1]
+nStretchStep            0x200014c3     0x1  Data  Gb  main.o [1]
+nStretchVigor           0x20001099     0x1  Data  Gb  main.o [1]
+nTargetMassagePosition  0x2000134d     0x1  Data  Gb  main.o [1]
+nValveAlone             0x20002eb4     0x1  Data  Gb  Valve.o [1]
+nValveAloneTime         0x20002eb6     0x2  Data  Gb  Valve.o [1]
+nVoicekey               0x20002c7e     0x1  Data  Gb  main.o [1]
+nWalkLoss               0x20002d48     0x1  Data  Gb  WalkMotor.o [1]
+nWalkMotorControlParam1
+                        0x20001422     0x1  Data  Gb  main.o [1]
+nWalkMotorControlParam2
+                        0x20001374     0x2  Data  Gb  main.o [1]
+nZero_OK                0x2000109b     0x1  Data  Gb  main.o [1]
+n_Examinee_Pointer      0x20001474     0x4  Data  Gb  main.o [1]
+n_Examinee_Steps        0x20001468     0x4  Data  Gb  main.o [1]
+n_Golfer_Pointer        0x20001478     0x4  Data  Gb  main.o [1]
+n_Golfer_Steps          0x2000146c     0x4  Data  Gb  main.o [1]
+n_Wrick_Pointer         0x20001480     0x4  Data  Gb  main.o [1]
+n_Wrick_Steps           0x2000147c     0x4  Data  Gb  main.o [1]
+nctrlType               0x20001058     0x4  Data  Gb  BlueTooth.o [1]
+outarmcmd               0x2000109d     0x1  Data  Gb  main.o [1]
+outarmcmdcount          0x20002ea4     0x1  Data  Gb  main.o [1]
+pADC                    0x20001000     0x4  Data  Gb  ADC_scan.o [1]
+p_BackLocation_test     0x20002e54     0x4  Data  Gb  main.o [1]
+password                0x20002cf4     0x4  Data  Gb  main.o [1]
+pm25_FailCount          0x20002e08     0x4  Data  Lc  VoiceUart.o [1]
+programExecTime         0x200015ac     0x4  Data  Lc  Data_Cul.o [1]
+pwm_time                0x20002d45     0x1  Data  Gb  WalkMotor.o [1]
+pwm_time_flag           0x20002d44     0x1  Data  Gb  WalkMotor.o [1]
+reArangeArray           0x0001175b    0x32  Code  Gb  AxisMotor.o [1]
+refreshAutoDirector     0x000043c3    0xf6  Code  Gb  main.o [1]
+rxBuffer                0x20001108     0x8  Data  Lc  signalUart_new.o [1]
+rxReadIndex             0x2000111c     0x4  Data  Lc  signalUart_new.o [1]
+rxWriteIndex            0x20001120     0x4  Data  Lc  signalUart_new.o [1]
+samples                 0x20002d78    0x10  Data  Gb  ADC_scan.o [1]
+send_time_flag          0x20002ea6     0x1  Data  Gb  main.o [1]
+set_Pwm_10MS_Int        0x20001008     0x1  Data  Gb  BackPad.o [1]
+signalUart              0x20001118     0x4  Data  Lc  signalUart_new.o [1]
+signalUartInit          0x20001124    0x18  Data  Lc  signalUart_new.o [1]
+slow_break_10MS_Int     0x20001005     0x1  Data  Gb  BackPad.o [1]
+speedUp                 0x000121c3    0x32  Code  Gb  BackPad.o [1]
+speedUp_10MS_Int        0x20001006     0x1  Data  Gb  BackPad.o [1]
+st_AirBagArm            0x20001540    0x14  Data  Gb  main.o [1]
+st_AirBagArmSholder     0x20001504    0x14  Data  Gb  main.o [1]
+st_AirBagArmSholderBackWaist
+                        0x200014c8    0x14  Data  Gb  main.o [1]
+st_AirBagArmSholder_Seat
+                        0x2000157c    0x14  Data  Gb  main.o [1]
+st_AirBagBackWaist      0x20001518    0x14  Data  Gb  main.o [1]
+st_AirBagLegFoot        0x200014f0    0x14  Data  Gb  main.o [1]
+st_AirBagLegFoot_ArmSholder
+                        0x20001568    0x14  Data  Gb  main.o [1]
+st_AirBagLegFoot_ArmSholder_Seat
+                        0x20001590    0x14  Data  Gb  main.o [1]
+st_AirBagLegFoot_Seat   0x20001554    0x14  Data  Gb  main.o [1]
+st_AirBagModeLegFootSeat
+                        0x200014dc    0x14  Data  Gb  main.o [1]
+st_AirBagModeLegFootSeat_Growth
+                        0x2000149c    0x14  Data  Gb  main.o [1]
+st_AirBagSeat           0x2000152c    0x14  Data  Gb  main.o [1]
+st_GrowthStretch        0x20001090     0x8  Data  Gb  main.o [1]
+st_RestSleep            0x20002c68     0x8  Data  Gb  main.o [1]
+st_SlideDown            0x20002e90     0x4  Data  Gb  Input.o [1]
+st_SlideUp              0x20002e8c     0x4  Data  Gb  Input.o [1]
+st_Stretch              0x20001088     0x8  Data  Gb  main.o [1]
+stretchMode             0x200014c0     0x1  Data  Gb  main.o [1]
+stretchProgram_10       0x0001cf6c     0xc  Data  Gb  main.o [1]
+stretchProgram_20       0x0001cf58    0x14  Data  Gb  main.o [1]
+stretchProgram_30       0x0001cf40    0x18  Data  Gb  main.o [1]
+sysCounter              0x20002de8     0x4  Data  Gb  system.o [1]
+tickAxisCount           0x20002e94     0x4  Data  Gb  Input.o [1]
+transferComplete        0x00013fc9    0x26  Code  Gb  ADC_scan.o [1]
+txBuf                   0x20002a80   0x10c  Data  Gb  HandUart_New.o [1]
+txLegBuf                0x20001190    0x2c  Data  Lc  UartLeg.o [1]
+uart                    0x20001054     0x4  Data  Lc  BlueTooth.o [1]
+uart                    0x200011bc     0x4  Data  Lc  UartLeg.o [1]
+uartBlueToothPutData    0x00013f0b    0x2a  Code  Gb  BlueTooth.o [1]
+uartInit                0x20001064    0x18  Data  Lc  BlueTooth.o [1]
+uartInit                0x200011cc    0x18  Data  Lc  UartLeg.o [1]
+uartLegPutData          0x00013bf7    0x2c  Code  Gb  UartLeg.o [1]
+uartPutData             0x000101fd    0x30  Code  Lc  HandUart_New.o [1]
+uc3DMessageRXBuffer     0x20002e0c     0xc  Data  Lc  UartLeg.o [1]
+ucBlueToothRXBuffer     0x2000101c     0x8  Data  Gb  BlueTooth.o [1]
+ucCommonRXBuffer        0x20001170     0xc  Data  Lc  UartLeg.o [1]
+ucLegRXBuffer           0x2000117c     0xc  Data  Lc  UartLeg.o [1]
+ucRXBuffer              0x20002d00    0x20  Data  Gb  HandUart_New.o [1]
+ucReceiveData           0x20002c34     0x4  Data  Gb  Valve.o [1]
+ucSendData              0x20002c30     0x4  Data  Gb  Valve.o [1]
+ucVoiceMessageRXBuffer  0x200011c0     0xc  Data  Lc  UartLeg.o [1]
+ulDuty1                 0x20002ea8     0x4  Data  Gb  Roller_Uart.o [1]
+upWalkRun               0x20002c74     0x1  Data  Gb  main.o [1]
+upflag                  0x20002d4a     0x1  Data  Gb  WalkMotor.o [1]
+upflag2                 0x20002d4c     0x1  Data  Gb  WalkMotor.o [1]
+w_BackPosition_2        0x200010fc     0x4  Data  Gb  main.o [1]
+w_FlexAdjStep           0x20002e7c     0x4  Data  Lc  Flex_Uart .o [1]
+w_LEDCtrlTimer          0x20002d6c     0x4  Data  Gb  LED_RGB.o [1]
+w_LEDCtrlTimer1         0x20002d70     0x4  Data  Gb  LED_RGB.o [1]
+w_LEDSteps              0x20002d64     0x4  Data  Gb  LED_RGB.o [1]
+w_LEDTimer              0x20002d68     0x4  Data  Gb  LED_RGB.o [1]
+w_LegPosition_2         0x20001100     0x4  Data  Gb  main.o [1]
+w_Position              0x20001014     0x4  Data  Lc  BackPad.o [1]
+w_Position              0x20002d8c     0x4  Data  Lc  LegMotor.o [1]
+w_PresetTime            0x20001390     0x4  Data  Gb  main.o [1]
+w_RollerCounter         0x20002c3c     0x4  Data  Gb  Valve.o [1]
+w_RollerPWM             0x200015b4     0x4  Data  Gb  Valve.o [1]
+w_Time                  0x200015a8     0x4  Data  Lc  Data_Cul.o [1]
+w_Timer                 0x20002e74     0x4  Data  Lc  Flex_Uart .o [1]
+w_Timer_Data            0x20001448    0x20  Data  Lc  Timer.o [1]
+w_Timer_OutTime         0x20002ec6     0x1  Data  Gb  Flex_Uart .o [1]
+w_legtest               0x20002d90     0x4  Data  Gb  LegMotor.o [1]
+w_pistiong2             0x2000100c     0x4  Data  Gb  BackPad.o [1]
+walkRefreshDown         0x000042cb    0xf8  Code  Gb  main.o [1]
+walkRefreshUp           0x000041fb    0xd0  Code  Gb  main.o [1]
+wgh                     0x2000149a     0x1  Data  Gb  main.o [1]
+wghrestsleep            0x20002ca0     0x4  Data  Gb  main.o [1]
+wghtest                 0x20002d94     0x4  Data  Gb  LegMotor.o [1]
+
+
+[1] = C:\Users\rt005637\Desktop\RT005637\6923\主板程序\RT6923_Main_US003_V1.01_20180809\Project\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  86 992 bytes of readonly  code memory
+     344 bytes of readwrite code memory
+  24 528 bytes of readonly  data memory
+   7 554 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

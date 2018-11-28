@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>RT8600S/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>221</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>980</ColumnWidth1><ColumnWidth2>261</ColumnWidth2><ColumnWidth3>65</ColumnWidth3></Build>
+      <Find-in-Files>
+        
+        
+        
+      <ColumnWidth0>470</ColumnWidth0><ColumnWidth1>67</ColumnWidth1><ColumnWidth2>806</ColumnWidth2></Find-in-Files>
+    <Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1307</ColumnWidth1></Debug-Log><TerminalIO/></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-12652-31284</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>RT8600S</ExpandedNode><ExpandedNode>RT8600S/CMSIS</ExpandedNode><ExpandedNode>RT8600S/Local</ExpandedNode><ExpandedNode>RT8600S/Output</ExpandedNode><ExpandedNode>RT8600S/Software</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-2196-31480</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-21289-1834</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-10289-11492</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Application\src\main.c</Filename><XPos>0</XPos><YPos>18098</YPos><SelStart>577826</SelStart><SelEnd>577826</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Application\src\ControlBox.h</Filename><XPos>0</XPos><YPos>134</YPos><SelStart>5415</SelStart><SelEnd>5431</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Application\src\valve.h</Filename><XPos>0</XPos><YPos>264</YPos><SelStart>9816</SelStart><SelEnd>9816</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Application\src\airbagaction.h</Filename><XPos>0</XPos><YPos>132</YPos><SelStart>2721</SelStart><SelEnd>2721</SelEnd></Tab><ActiveTab>3</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\emlib\src\em_dma.c</Filename><XPos>0</XPos><YPos>325</YPos><SelStart>11613</SelStart><SelEnd>11613</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Application\src\Valve.c</Filename><XPos>7</XPos><YPos>1215</YPos><SelStart>29511</SelStart><SelEnd>29511</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Application\src\backaction.h</Filename><XPos>0</XPos><YPos>57</YPos><SelStart>1845</SelStart><SelEnd>2004</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Application\src\_3DFunction1.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>87</SelStart><SelEnd>87</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Application\src\_3DFunction0.c</Filename><XPos>0</XPos><YPos>9</YPos><SelStart>1413</SelStart><SelEnd>1413</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-03421610><key>iaridepm.enu1</key></Toolbar-03421610></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>416</Bottom><Right>295</Right><x>-2</x><y>-2</y><xscreen>99</xscreen><yscreen>117</yscreen><sizeHorzCX>72474</sizeHorzCX><sizeHorzCY>170803</sizeHorzCY><sizeVertCX>217423</sizeVertCX><sizeVertCY>610219</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>224</Bottom><Right>1368</Right><x>-2</x><y>-2</y><xscreen>1370</xscreen><yscreen>226</yscreen><sizeHorzCX>1002928</sizeHorzCX><sizeHorzCY>329927</sizeHorzCY><sizeVertCX>72474</sizeVertCX><sizeVertCY>170803</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

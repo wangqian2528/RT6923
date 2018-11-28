@@ -1,0 +1,15 @@
+"D:\IAR\arm\bin\armproc.dll" 
+
+"D:\IAR\arm\bin\armjlink2.dll" 
+
+"C:\Users\rt005637\Desktop\RT005637\6923\Ö÷°å³ÌÐò\RT6923_Main_US003_V1.01_20180809\Project\Debug\Exe\RT8600_New.out" 
+
+--plugin "D:\IAR\arm\bin\armbat.dll" 
+
+--device_macro "D:\IAR\arm\config\debugger\SiliconLaboratories\Trace_EFM32LG.dmac" 
+
+--flash_loader "D:\IAR\arm\config\flashloader\SiliconLaboratories\FlashEFM32.board" 
+
+
+
+
